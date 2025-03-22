@@ -119,7 +119,7 @@ export default function Blog() {
     }, []);
 
     return (
-        <div className="bg-purple-300 mt-0 ">
+        <div className="bg-gradient-to-br from-purple-300 from-25% via-purple-200 via-40% to-purple-400 to-60% mt-0 ">
             {/* <div className="absolute min-h-64 -z-{1000} inset-0 bg-[radial-gradient(white_2px,transparent_2px)] bg-[size:12px_12px] opacity-30"></div> */}
             <div className="absolute inset-0 bg-[radial-gradient(white_2px,transparent_2px)] bg-[size:12px_12px] opacity-30 z-[-1]"></div>
 

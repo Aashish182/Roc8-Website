@@ -57,11 +57,11 @@ const Home = () => {
             <section className="bg-purple-100 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">About Us</h2>
               <p className="text-gray-700 leading-relaxed">ROC8 is dedicated to helping individuals understand their worth in the job market. Our AI-powered tool analyzes various factors to provide accurate salary predictions and many more..</p>
-              <div className='bg-[#C7D2FE] rounded-2xl m-4'>
+              <div className='bg-[#C7D2FE] rounded-2xl m-4 h-[350px]'>
                 <div class="flex items-center gap-3 ml-8">
                   <div class="w-5 h-5 bg-purple-100 rounded-full "></div>
                   <div>
-                    <h4 class="text-lg mt-4">We predicted over</h4>
+                    <h4 class="text-lg mt-[30px]">We predicted over</h4>
                     <h2 class="text-purple-100 text-2xl font-bold">
                         <span id="count1"><CountUp key={countKey} start={100} end={1200} duration={2}/></span>+ Peoples
                     </h2>
