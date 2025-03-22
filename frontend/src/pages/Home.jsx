@@ -1,27 +1,39 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Footer from '../components/Footer';
 import home1 from "../asset/Images/home3.jpg";
+import img1 from '../asset/Images/predictsalary.jpg';
+import img2 from '../asset/Images/career.jpg';
+import img3 from '../asset/Images/job1.jpg';
+import CountUp from 'react-countup';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [animate, setAnimate] = useState(true); 
+  const [countKey, setCountKey] = useState(0);
+  
+  useEffect(() => {
+    const interval1 = setInterval(() => {
+      setAnimate(false);
+      setTimeout(() => setAnimate(true), 100);
+    }, 3000);
+  
+    const interval2 = setInterval(() => {
+      setCountKey(prevKey => prevKey + 1);
+    }, 5000);
 
-const [animate, setAnimate] = useState(true); 
-
-useEffect(() => {
-  const interval = setInterval(() => {
-    setAnimate(false);
-    setTimeout(() => setAnimate(true), 100);
-  }, 3000);
-
-  return () => clearInterval(interval);
-}, []);
+    return () => {
+      clearInterval(interval1);
+      clearInterval(interval2);
+    };
+  }, []);
+  
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-br from-white via-purple-100 to-purple-200 min-h-screen">
+    <div className="font-sans text-gray-800 bg-gradient-to-tl from-white via-purple-100 to-purple-200 min-h-screen">
         <div className="relative h-[725px] w-[1520px] bg-gradient-to-b from-deep-purple-600 to-purple-500 text-center py-20 text-white border-b border-gray-300">
           <div 
             className="absolute inset-0 bg-no-repeat bg-cover bg-center "
@@ -39,43 +51,84 @@ useEffect(() => {
           <h4 className='text-lg text-purple-400'>Boost your career by predicting salary and get more things.</h4>
           <h4 className="text-lg text-purple-400">Use our AI-powered tool to predict your salary based on experience and skills.</h4>
           </div>
-        <div className="container mx-auto py-16 px-8">
+
+        <div className="container px-8">
           <div className="grid grid-cols-1 gap-16">
-            <section className="bg-lavender p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
+            <section className="bg-purple-100 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">About Us</h2>
-              <p className="text-gray-700 leading-relaxed">ROC8 Salary Predictor is dedicated to helping individuals understand their worth in the job market. Our AI-powered tool analyzes various factors to provide accurate salary predictions.</p>
+              <p className="text-gray-700 leading-relaxed">ROC8 is dedicated to helping individuals understand their worth in the job market. Our AI-powered tool analyzes various factors to provide accurate salary predictions and many more..</p>
+              <div className='bg-[#C7D2FE] rounded-2xl m-4'>
+                <div class="flex items-center gap-3 ml-8">
+                  <div class="w-5 h-5 bg-purple-100 rounded-full "></div>
+                  <div>
+                    <h4 class="text-lg mt-4">We predicted over</h4>
+                    <h2 class="text-purple-100 text-2xl font-bold">
+                        <span id="count1"><CountUp key={countKey} start={100} end={1200} duration={2}/></span>+ Peoples
+                    </h2>
+                    <p class="text-gray-400">We have successfully predicted the salary for 1200+ peoples.</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3 ml-8">
+                    <div class="w-5 h-5 bg-purple-100 rounded-full"></div>
+                    <div>
+                        <h4 class="text-lg mt-2">We have </h4>
+                        <h2 class="text-purple-100 text-2xl font-bold">
+                          <span id="count2"><CountUp key={countKey} start={0} end={25} duration={2}/></span>+ In demand skills category
+                        </h2>
+                        <p class="text-gray-400">We have successfully found the 25+ in-demand skills.</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 ml-8">
+                    <div class="w-5 h-5 bg-purple-100 rounded-full"></div>
+                    <div>
+                        <h4 class="text-lg mt-2">We have support of</h4>
+                        <h2 class="text-purple-100 text-2xl font-bold">
+                          <span id="count3"><CountUp key={countKey} start={10} end={100} duration={2}/></span>+ Companies
+                        </h2>
+                        <p class="text-gray-400 mb-4">We have a huge number of supporters willing to help you.</p>
+                    </div>
+                </div>
+              </div>
+              <div className="mr-4 flex justify-end">
+                <NavLink to='/Aboutus' className="flex items-center gap-2 bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-full transition-colors">
+                  Know More
+                </NavLink>
+              </div>
             </section>
 
-            <section className="bg-lavender p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
+            <section className="bg-purple-100 p-8 h-[500px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">How It Works</h2>
-              <div className="mt-8 flex justify-between flex-wrap">
-                <div className="bg-purple-100 p-10 rounded-xl w-full md:w-1/3 shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0">
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Step 1</h3>
-                  <p className="text-gray-600">Input your experience and skills.</p>
+              <div className="mt-8 flex justify-between">
+                <div className="bg-[#C7D2FE] p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img1} alt="img1" className="h-20 w-20 rounded-full" />
+                  <h3 className="text-xl text-deep-purple-600 mb-2">Predict Your Salary</h3>
+                  <p className="text-gray-600">Get an estimate of your expected salary based on your skills, experience, and job role</p>
                 </div>
-                <div className="bg-purple-100 p-10 rounded-xl w-full md:w-1/3 shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0">
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Step 2</h3>
-                  <p className="text-gray-600">Our AI analyzes the data.</p>
+                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img2} alt="img2" className="h-20 w-20 rounded-full" />
+                  <h3 className="text-xl text-deep-purple-600 mb-2">Career Growth Insights</h3>
+                  <p className="text-gray-600">Discover the most in-demand skills and technologies to boost your career.</p>
                 </div>
-                <div className="bg-purple-100 p-10 rounded-xl w-full md:w-1/3 shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0">
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Step 3</h3>
-                  <p className="text-gray-600">Receive your personalized salary prediction.</p>
+                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img3} alt="img3" className="h-20 w-20 rounded-full" />
+                  <h3 className="text-xl text-deep-purple-600 mb-2">Job Trends</h3>
+                  <p className="text-gray-600">Stay updated with the latest job market trends and hiring demands in your industry.</p>
                 </div>
               </div>
             </section>
 
-            <section className="bg-lavender p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
+            <section className="bg-purple-100 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">What Our Users Say</h2>
               <blockquote className="text-gray-700 italic">"This tool helped me negotiate my salary effectively!" - Jane D.</blockquote>
               <blockquote className="text-gray-700 italic mt-4">"I was amazed at how accurate the predictions were!" - John S.</blockquote>
             </section>
 
-            <section className="bg-purple-50 p-8 rounded-xl shadow-xl">
+            <section className="bg-purple-100 p-8 rounded-xl shadow-xl">
               <h2 className="text-3xl text-deep-purple-800 mb-4">Frequently Asked Questions</h2>
               <div className="mb-4">
                 <h3
                   onClick={() => toggleFAQ(0)}
-                  className="text-lg font-semibold p-3 bg-purple-100 rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
+                  className="text-lg font-semibold p-3 bg-[#C7D2FE] rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
                 >
                   Is my data safe?
                   <span className="text-purple-600">{activeIndex === 0 ? '-' : '+'}</span>
@@ -84,16 +137,52 @@ useEffect(() => {
                   <p className="text-gray-600 mt-2 ml-2"> Your privacy is our priority. We do not store personal data.</p>
                 )}
               </div>
-              <div>
+              <div className='mb-4'>
                 <h3
                   onClick={() => toggleFAQ(1)}
-                  className="text-lg font-semibold p-3 bg-purple-100 rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
+                  className="text-lg font-semibold p-3 bg-[#C7D2FE] rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
                 >
                   How accurate are the predictions?
                   <span className="text-purple-600">{activeIndex === 1 ? '-' : '+'}</span>
                 </h3>
                 {activeIndex === 1 && (
                   <p className="text-gray-600 mt-2 ml-2"> Our predictions are based on extensive industry data and trends.</p>
+                )}
+              </div>
+              <div className='mb-4'>
+                <h3
+                  onClick={() => toggleFAQ(2)}
+                  className="text-lg font-semibold p-3 bg-[#C7D2FE] rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
+                >
+                  How can ROC8 help me grow my career?
+                  <span className="text-purple-600">{activeIndex === 2 ? '-' : '+'}</span>
+                </h3>
+                {activeIndex === 2 && (
+                  <p className="text-gray-600 mt-2 ml-2"> We provide insights into in-demand skills, industry trends, and personalized career recommendations.</p>
+                )}
+              </div>
+              <div className='mb-4'>
+                <h3
+                  onClick={() => toggleFAQ(3)}
+                  className="text-lg font-semibold p-3 bg-[#C7D2FE] rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
+                >
+                  What skills should I learn to increase my salary?
+                  <span className="text-purple-600">{activeIndex === 3 ? '-' : '+'}</span>
+                </h3>
+                {activeIndex === 3 && (
+                  <p className="text-gray-600 mt-2 ml-2"> Our platform suggests high-paying skills based on your current experience and career goals.</p>
+                )}
+              </div>
+              <div className='mb-4'>
+                <h3
+                  onClick={() => toggleFAQ(4)}
+                  className="text-lg font-semibold p-3 bg-[#C7D2FE] rounded-md hover:bg-purple-200 transition-colors cursor-pointer flex justify-between items-center"
+                >
+                  Can I see which industries are hiring the most?
+                  <span className="text-purple-600">{activeIndex === 4 ? '-' : '+'}</span>
+                </h3>
+                {activeIndex === 4 && (
+                  <p className="text-gray-600 mt-2 ml-2"> Yes, we provide insights into high-growth industries and the skills they require.</p>
                 )}
               </div>
             </section>

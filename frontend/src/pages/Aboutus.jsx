@@ -3,7 +3,7 @@ import Aboutusimg from "../asset/Images/image.png";
 import Footer from "../components/Footer";
 import { MdMap, MdCall } from "react-icons/md";
 import { IoIosMailUnread } from "react-icons/io";
-// import SummaryApi from "../common";
+import SummaryApi from "../common";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -41,39 +41,40 @@ const Aboutus = () => {
         return Object.keys(errors).length === 0;
     };
 
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setData((prev) => ({
-//       ...prev,
-//       [name]: value,
-//     }));
-//   };
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setData((prev) => ({
+        ...prev,
+        [name]: value,
+        }));
+    };
 
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-//     if (!validateInputs()) {
-//       return;
-//     }
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (!validateInputs()) {
+        return;
+        }
 
-//     const dataResponse = await fetch(SummaryApi.contactDetail.url, {
-//       method: SummaryApi.contactDetail.method,
-//       headers: {
-//         "content-type": "application/json",
-//       },
-//       credentials: "include",
-//       body: JSON.stringify(data),
-//     });
+        const dataResponse = await fetch(SummaryApi.aboutusDetail.url, {
+        method: SummaryApi.aboutusDetail.method,
+        headers: {
+            "content-type": "application/json",
+        },
+        credentials: "include",
+        body: JSON.stringify(data),
+        });
 
-//     const dataApi = await dataResponse.json();
+        const dataApi = await dataResponse.json();
 
-//     if (dataApi.success) {
-//       toast.success(dataApi?.message);
-//       navigate("/Contact");
-//     }
-//     if (dataApi.error) {
-//       toast.error(dataApi?.message);
-//     }
-//   };
+        if (dataApi.success) {
+        toast.success(dataApi?.message);
+        navigate("/Aboutus");
+        setData({ name: "", email: "", number: "", message: "" });
+        }
+        if (dataApi.error) {
+        toast.error(dataApi?.message);
+        }
+    };
 
     return (
         <>
@@ -142,7 +143,7 @@ const Aboutus = () => {
             <div className="mt-4 flex flex-col md:flex-row items-center gap-6 p-4">
             <img className="w-full md:w-1/2 h-{560px}" src={Aboutusimg} alt="Contact" />
             <div className="w-full md:w-1/2 h-{560px}">
-                <form /*onSubmit={handleSubmit}*/ className="space-y-4">
+                <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label className="block text-sm font-medium text-gray-900 mb-2">Name *</label>
                     <input
@@ -150,8 +151,8 @@ const Aboutus = () => {
                     className="w-full border border-gray-300 rounded-lg p-2 outline-none focus:ring focus:ring-purple-300"
                     placeholder="Apsit Jain"
                     name="name"
-                    //   value={data.name}
-                    //   onChange={handleChange}
+                    value={data.name}
+                    onChange={handleChange}
                     required
                     />
                 </div>
@@ -162,8 +163,8 @@ const Aboutus = () => {
                     className="w-full border border-gray-300 rounded-lg p-2 outline-none focus:ring focus:ring-purple-300"
                     placeholder="example@gmail.com"
                     name="email"
-                    //   value={data.email}
-                    //   onChange={handleChange}
+                    value={data.email}
+                    onChange={handleChange}
                     required
                     />
                 </div>
@@ -174,8 +175,8 @@ const Aboutus = () => {
                     className="w-full border border-gray-300 rounded-lg p-2 outline-none focus:ring focus:ring-purple-300"
                     placeholder="Phone Number"
                     name="number"
-                    //   value={data.number}
-                    //   onChange={handleChange}
+                    value={data.number}
+                    onChange={handleChange}
                     required
                     />
                 </div>
@@ -185,8 +186,8 @@ const Aboutus = () => {
                     className="w-full border border-gray-300 rounded-lg p-2 outline-none focus:ring focus:ring-purple-300"
                     placeholder="Start typing..."
                     name="message"
-                    //   value={data.message}
-                    //   onChange={handleChange}
+                    value={data.message}
+                    onChange={handleChange}
                     rows="5"
                     required
                     ></textarea>
@@ -202,7 +203,6 @@ const Aboutus = () => {
             </div>
             </div>
         </div>
-        {/* <Banner /> */}
         <Footer />
         </>
     );

@@ -30,6 +30,14 @@ const SummaryApi = {
         url: `${backendDomain}/api/blogdetails`,
         method : "get"
     },
+    salaryDetails :{
+        url: `${backendDomain}/api/salarydetails`,
+        method : "post"
+    },
+    aboutusDetail :{
+        url: `${backendDomain}/api/aboutusdetail`,
+        method : "post"
+    },
 }
 
 

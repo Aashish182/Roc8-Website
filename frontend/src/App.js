@@ -12,6 +12,7 @@ import { fetchUserDetails } from './store/userSlice';
 import Blog from './pages/Blog';
 import Aboutus from './pages/Aboutus';
 import Services from './pages/Services';
+import CareerInsights from './components/CareerInsights';
 
 function App() {
   const dispatch = useDispatch();
@@ -81,6 +82,15 @@ function App() {
         <>
           <Navbar />
           <Services />
+        </>
+      ),
+    },
+    {
+      path: '/CareerInsights',
+      element: (
+        <>
+          <Navbar />
+          <CareerInsights />
         </>
       ),
     },
