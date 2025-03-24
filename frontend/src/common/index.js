@@ -38,6 +38,18 @@ const SummaryApi = {
         url: `${backendDomain}/api/aboutusdetail`,
         method : "post"
     },
+    addJob :{
+        url: `${backendDomain}/api/addjob`,
+        method : "post"
+    },
+    DeleteJob :{
+        url: `${backendDomain}/api/deletejob`,
+        method : "post"
+    },
+    jobDetails :{
+        url: `${backendDomain}/api/jobdetails`,
+        method : "get"
+    },
 }
 
 

@@ -59,30 +59,30 @@ const Home = () => {
               <p className="text-gray-700 leading-relaxed">ROC8 is dedicated to helping individuals understand their worth in the job market. Our AI-powered tool analyzes various factors to provide accurate salary predictions and many more..</p>
               <div className='bg-[#C7D2FE] rounded-2xl m-4 h-[350px]'>
                 <div class="flex items-center gap-3 ml-8">
-                  <div class="w-5 h-5 bg-purple-100 rounded-full "></div>
+                  <div class="w-5 h-5 bg-purple-300 rounded-full "></div>
                   <div>
                     <h4 class="text-lg mt-[30px]">We predicted over</h4>
-                    <h2 class="text-purple-100 text-2xl font-bold">
+                    <h2 class="text-purple-700 text-2xl ">
                         <span id="count1"><CountUp key={countKey} start={100} end={1200} duration={2}/></span>+ Peoples
                     </h2>
                     <p class="text-gray-400">We have successfully predicted the salary for 1200+ peoples.</p>
                   </div>
                 </div>
                 <div class="flex items-center gap-3 ml-8">
-                    <div class="w-5 h-5 bg-purple-100 rounded-full"></div>
+                    <div class="w-5 h-5 bg-purple-300 rounded-full"></div>
                     <div>
                         <h4 class="text-lg mt-2">We have </h4>
-                        <h2 class="text-purple-100 text-2xl font-bold">
+                        <h2 class="text-purple-700 text-2xl">
                           <span id="count2"><CountUp key={countKey} start={0} end={25} duration={2}/></span>+ In demand skills category
                         </h2>
                         <p class="text-gray-400">We have successfully found the 25+ in-demand skills.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3 ml-8">
-                    <div class="w-5 h-5 bg-purple-100 rounded-full"></div>
+                    <div class="w-5 h-5 bg-purple-300 rounded-full"></div>
                     <div>
                         <h4 class="text-lg mt-2">We have support of</h4>
-                        <h2 class="text-purple-100 text-2xl font-bold">
+                        <h2 class="text-purple-700 text-2xl">
                           <span id="count3"><CountUp key={countKey} start={10} end={100} duration={2}/></span>+ Companies
                         </h2>
                         <p class="text-gray-400 mb-4">We have a huge number of supporters willing to help you.</p>

@@ -13,6 +13,7 @@ import Blog from './pages/Blog';
 import Aboutus from './pages/Aboutus';
 import Services from './pages/Services';
 import CareerInsights from './components/CareerInsights';
+import JobTrends from './components/JobTrends';
 
 function App() {
   const dispatch = useDispatch();
@@ -91,6 +92,15 @@ function App() {
         <>
           <Navbar />
           <CareerInsights />
+        </>
+      ),
+    },
+    {
+      path: '/JobTrends',
+      element: (
+        <>
+          <Navbar />
+          <JobTrends />
         </>
       ),
     },
