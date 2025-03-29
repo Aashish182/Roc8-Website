@@ -65,6 +65,7 @@ const JobTrends = () => {
         const dataApi = await response.json();
         if(dataApi.success){
             toast.success(dataApi.message);
+            fetchJobDetails();
         }
     };
     
@@ -139,7 +140,6 @@ return (
         <div className="container bg-gradient-to-br from-purple-100 to-purple-300 p-6">
         <h1 className="text-4xl font-bold text-purple-700 text-center">Job Market Trends</h1>
 
-        {/* Search Input */}
         <div className="flex justify-center mt-6">
         <input
             type="text"
@@ -151,7 +151,21 @@ return (
             <FaSearch className="text-purple-500 w-6 h-6 ml-2 mt-2" />
         </div>
 
-        {/* Job Cards */}
+        <div className="bg-white p-6 rounded-lg shadow-lg max-w-5xl mx-auto mt-12">
+            <h2 className="text-2xl font-bold text-gray-700 text-center mb-4">Growth & Demand Overview</h2>
+            <ResponsiveContainer width="100%" height={300}>
+            <BarChart data={filteredJobs} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="title" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="growth" fill="#6D28D9" barSize={40} name="Growth Rate (%)" />
+                <Bar dataKey="demand" fill="#10B981" barSize={40} name="Job Demand (%)" />
+            </BarChart>
+            </ResponsiveContainer>
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6 mt-8 max-w-5xl mx-auto">
         {Array.isArray(filteredJobs) && filteredJobs.length > 0 ? (
             filteredJobs.map((el, index) => (
@@ -177,23 +191,6 @@ return (
         )}
         </div>
 
-        {/* Job Trends Chart */}
-        <div className="bg-white p-6 rounded-lg shadow-lg max-w-5xl mx-auto mt-12">
-            <h2 className="text-2xl font-bold text-gray-700 text-center mb-4">Growth & Demand Overview</h2>
-            <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={filteredJobs} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="title" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="growth" fill="#6D28D9" barSize={40} name="Growth Rate (%)" />
-                <Bar dataKey="demand" fill="#10B981" barSize={40} name="Job Demand (%)" />
-            </BarChart>
-            </ResponsiveContainer>
-        </div>
-
-        {/* Add Job Form */}
         { user?.role == "ADMIN" ? (
             <div className="bg-white p-6 rounded-lg shadow-lg max-w-5xl mx-auto mt-12">
                 <h2 className="text-2xl font-bold text-gray-700 text-center mb-4">Add Job Role</h2>

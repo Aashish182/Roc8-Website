@@ -78,7 +78,7 @@ const Aboutus = () => {
 
     return (
         <>
-        <div className="min-h-screen bg-gradient-to-br from-purple-300 from-25% via-purple-200 via-40% to-purple-400 to-60% mb-10">
+        <div className="h-[650px] bg-gradient-to-br from-purple-300 from-25% via-purple-200 via-40% to-purple-400 to-60% mb-10">
             <div className="container mx-auto py-16 px-8">
                 <h1 className="text-4xl text-purple-800 font-bold text-center">About Us</h1>
                 <div className="mt-8 bg-white p-8 rounded-lg shadow-xl">

@@ -100,15 +100,24 @@ const Navbar = () => {
                       <span>{user?.name}</span>
                       <FaRegUserCircle />
                     </div>
-                    {(isHovered) && (
-                      <div className="absolute right-0 mt-0 w-32 bg-white shadow-lg rounded-md z-50">
-                        <div className="relative">
-                          {/* Triangle Indicator */}
-                          <div className="absolute -top-2 right-3 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-white"></div>
-                        </div>
+
+                    {isHovered && (
+                      <div className="absolute right-0 mt-0 w-40 bg-white shadow-lg rounded-md z-50 flex flex-col">
+                        {/* Triangle Indicator */}
+                        <div className="absolute -top-2 right-3 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-white"></div>
+
+                        {user?.role === "ADMIN" && (
+                          <NavLink
+                            to="/AdminPanel"
+                            className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-t-md"
+                          >
+                            Admin Panel
+                          </NavLink>
+                        )}
+
                         <div
                           onClick={handleLogout}
-                          className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-lg"
+                          className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
                         >
                           Logout
                         </div>

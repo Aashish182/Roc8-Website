@@ -50,6 +50,18 @@ const SummaryApi = {
         url: `${backendDomain}/api/jobdetails`,
         method : "get"
     },
+    allUser :{
+        url: `${backendDomain}/api/AllUser`,
+        method : "get"
+    },
+    updateUser :{
+        url: `${backendDomain}/api/UpdateUser`,
+        method : "get"
+    },
+    allQueries :{
+        url: `${backendDomain}/api/AllQueries`,
+        method : "get"
+    },
 }
 
 

@@ -33,7 +33,7 @@ const Home = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-tl from-white via-purple-100 to-purple-200 min-h-screen">
+    <div className="font-sans text-gray-800 bg-gradient-to-tl from-purple-200 via-purple-100 to-purple-300 min-h-screen">
         <div className="relative h-[725px] w-[1520px] bg-gradient-to-b from-deep-purple-600 to-purple-500 text-center py-20 text-white border-b border-gray-300">
           <div 
             className="absolute inset-0 bg-no-repeat bg-cover bg-center "

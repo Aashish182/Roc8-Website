@@ -14,6 +14,9 @@ import Aboutus from './pages/Aboutus';
 import Services from './pages/Services';
 import CareerInsights from './components/CareerInsights';
 import JobTrends from './components/JobTrends';
+import AdminPanel from './pages/AdminPanel';
+import AllUsers from './components/AllUsers';
+import AllQueries from './components/AllQueries';
 
 function App() {
   const dispatch = useDispatch();
@@ -103,6 +106,28 @@ function App() {
           <JobTrends />
         </>
       ),
+    },
+    {
+      path:"/AdminPanel",
+      element:<><Navbar /><AdminPanel/></>,
+      children:[
+        {
+          path:"AllUsers",
+          element:<AllUsers/>
+        },
+        // {
+        //   path:"AllCampaigns",
+        //   element:<AllCampaigns/>
+        // },
+        {
+          path:"AllQueries",
+          element:<AllQueries/>
+        },
+        // {
+        //   path:"AllBankDetails",
+        //   element:<AllBankDetails/>
+        // }
+      ]
     },
   ]);
 
