@@ -26,11 +26,11 @@ const AdminPanel = () => {
                         </NavLink>
                         
                         <NavLink 
-                            to={'AllCampaigns'} 
+                            to={'AllBlogs'} 
                             className={({ isActive }) => isActive 
                                 ? "text-purple-700 bg-[#C7D2FE] p-2 rounded-md flex items-center gap-3" 
                                 : "text-purple-600 text-lg p-2 hover:bg-[#C7D2FE] rounded-md flex items-center gap-3"}>
-                            <MdCampaign size={20}/> Campaigns
+                            <MdCampaign size={20}/> Blogs
                         </NavLink>
 
                         <NavLink 

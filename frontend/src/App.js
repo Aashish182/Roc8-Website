@@ -17,6 +17,8 @@ import JobTrends from './components/JobTrends';
 import AdminPanel from './pages/AdminPanel';
 import AllUsers from './components/AllUsers';
 import AllQueries from './components/AllQueries';
+import AllBlogs from './components/AllBlogs';
+import ViewBlog from './components/ViewBlog';
 
 function App() {
   const dispatch = useDispatch();
@@ -108,6 +110,15 @@ function App() {
       ),
     },
     {
+      path: '/ViewBlog/:id',
+      element: (
+        <>
+          <Navbar />
+          <ViewBlog />
+        </>
+      ),
+    },
+    {
       path:"/AdminPanel",
       element:<><Navbar /><AdminPanel/></>,
       children:[
@@ -115,10 +126,10 @@ function App() {
           path:"AllUsers",
           element:<AllUsers/>
         },
-        // {
-        //   path:"AllCampaigns",
-        //   element:<AllCampaigns/>
-        // },
+        {
+          path:"AllBlogs",
+          element:<AllBlogs/>
+        },
         {
           path:"AllQueries",
           element:<AllQueries/>

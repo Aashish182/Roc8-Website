@@ -49,7 +49,7 @@ const AllUsers = () => {
         <tbody className='border-b-2 border-gray-400'>
           {allUsers.length > 0 &&
             allUsers.map((el, index) => (
-              <tr key={el._id || index} className='border-b border-gray-300 text-center text-lg'>
+              <tr key={el._id || index} className='border-b border-gray-300 text-center text-lg hover:bg-gray-100'>
                 <td className='border-r text-purple-700 border-gray-300 p-4'>{index + 1}</td>
                 <td className='border-r text-purple-700 border-gray-300 p-4'>{el.name}</td>
                 <td className='border-r text-purple-700 border-gray-300 p-4'>{el.email}</td>

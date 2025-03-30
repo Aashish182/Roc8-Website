@@ -24,7 +24,7 @@ const SummaryApi = {
     },
     bloguser :{
         url: `${backendDomain}/api/blog-user`,
-        method : "get"
+        method : "post"
     },
     blogDetails :{
         url: `${backendDomain}/api/blogdetails`,
@@ -61,6 +61,10 @@ const SummaryApi = {
     allQueries :{
         url: `${backendDomain}/api/AllQueries`,
         method : "get"
+    },
+    viewblogDetails :{
+        url: `${backendDomain}/api/ViewblogDetails`,
+        method : "post"
     },
 }
 
