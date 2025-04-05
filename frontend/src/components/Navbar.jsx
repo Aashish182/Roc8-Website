@@ -66,7 +66,7 @@ const Navbar = () => {
                       : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
                   }
                 >
-                  About Us
+                  About
                 </NavLink>
                 <NavLink
                   to="/Services"
@@ -106,6 +106,12 @@ const Navbar = () => {
                         {/* Triangle Indicator */}
                         <div className="absolute -top-2 right-3 w-0 h-0 border-l-8 border-r-8 border-b-8 border-transparent border-b-white"></div>
 
+                        <NavLink
+                          to="/Profile"
+                          className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
+                        >
+                          Profile
+                        </NavLink>
                         {user?.role === "ADMIN" && (
                           <NavLink
                             to="/AdminPanel"

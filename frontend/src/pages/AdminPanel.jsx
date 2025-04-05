@@ -10,7 +10,7 @@ const AdminPanel = () => {
 
     return (
         <div className='flex h-[650px] mt-8'>
-            <aside className='bg-[#f9f9f7] w-[500px] min-h-max pt-5 shadow-md'>
+            <aside className='bg-[#f9f9f7] w-[500px] min-h-screen pt-5 shadow-md'>
                 <div className='m-10'>
                     <h1 className='flex justify-center text-purple-500 text-xl font-bold'>{user?.role}</h1>
                     <div className='text-lg text-purple-600 flex mt-2'>Name: {user?.name}</div>
@@ -42,18 +42,18 @@ const AdminPanel = () => {
                         </NavLink>
 
                         <NavLink 
-                            to={'AllBankDetails'} 
+                            to={'AllJobTrends'} 
                             className={({ isActive }) => isActive 
                                 ? "text-purple-700 bg-[#C7D2FE] p-2 rounded-md flex items-center gap-3" 
                                 : "text-purple-600 text-lg p-2 hover:bg-[#C7D2FE] rounded-md flex items-center gap-3"}>
-                            <BsBank2 size={20}/> Bank Details
+                            <BsBank2 size={20}/> Job Trends
                         </NavLink>
                     </nav>
 
                     </div>
                 </div>
             </aside>
-            <main className='w-full h-full p-5'>
+            <main className='w-full min-h-screen p-5 bg-gradient-to-br from-white via-[#f3e8ff] to-[#e9d5ff]'>
                 <Outlet />
             </main>
         </div>

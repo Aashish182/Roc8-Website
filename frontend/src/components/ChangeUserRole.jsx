@@ -43,7 +43,7 @@ const ChangeUserRole = ({
                 </div>
                 <p className='text-xl font-semibold text-center mb-4'>Change User Role</p>
                 <div className='text-lg mb-2'>Name: {name}</div>
-                <div className='text-lg mb-4'>Email: {email}</div>
+                <div className='text-lg mb-4'>Email: {email}</div> 
                 <div className="flex justify-between items-center mb-4">
                     <label className='text-lg'>Role:</label> 
                     <select 
@@ -51,13 +51,16 @@ const ChangeUserRole = ({
                         onChange={handleOnChangeSelect} 
                         className='border border-gray-300 rounded p-2 w-40'
                     >
-                    {Object.values(ROLE).map(el => (
-                        <option value={el} key={el}>{el}</option>
-                    ))}
+                    {/* {Object.values(ROLE).map(el => {
+                        return( */}
+                        <option value="ADMIN">ADMIN</option>
+                        <option value="GENERAL">GENERAL</option>
+                        {/* )
+                    })} */}
                     </select>
                 </div>
                 <button 
-                    className='w-full bg-purple-500 text-white py-2 rounded-lg text-lg hover:bg-purple-600'
+                    className='w-full mt-8 bg-purple-500 text-white py-2 rounded-lg text-lg hover:bg-purple-600'
                     onClick={updateUserRole}
                 >
                     Change Role

@@ -173,7 +173,7 @@ export default function Blog() {
                         />
 
                         {/* Image Upload Section */}
-                        <label className="block text-sm text-gray-700 mb-2 mt-4">Upload Image *</label>
+                        <label className="block text-sm text-gray-700 mb-2 mt-4">Upload Image * (Size should be less than 20KB)</label>
                         <input
                             encType="multipart/form-data"
                             type="file"

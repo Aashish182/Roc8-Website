@@ -7,7 +7,7 @@ import SummaryApi from "../common";
 import Context from "../context";
 import { useDispatch } from 'react-redux';
 
-const Login = () => {
+const ForgotPassword = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -18,11 +18,33 @@ const Login = () => {
   const {fetchUserDetails} = useContext(Context);
   const dispatch = useDispatch();
     
+  const [email, setEmail] = useState('');
+  const [oldPassword, setOldPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
 
-    const [data, setData] = useState({
-        email: '',
-        password: ''
-    });
+  const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+          const response = await fetch(SummaryApi.ChangePassword.url, {
+              method: SummaryApi.ChangePassword.method,
+              headers: {
+                  "Content-Type": "application/json"
+              },
+              body: JSON.stringify({ email, oldPassword, newPassword })
+          });
+
+          const data = await response.json();
+
+          if (data.success) {
+              toast.success("Password changed successfully!");
+              navigate('/Login'); 
+          } else {
+              toast.error(data.message);
+          }
+      } catch (error) {
+          toast.error("An error occurred. Please try again.");
+      }
+  };
 
     const [errors, setErrors] = useState({});
 
@@ -30,53 +52,21 @@ const Login = () => {
       const errors = {};
       const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
       const passpattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?#&])[A-Za-z\d@$!%*?#&]{8,}$/;
-      if (!emailPattern.test(data.email)) {
+      if (!emailPattern.test(email)) {
           toast.error("Please enter a valid email address.");
           errors.password = "Please enter a valid email address.";
-      }
-      
+    }
+      if (!passpattern.test(oldPassword)) {
+        toast.error("Please enter a valid Old Password.");
+        errors.password = "Please enter a valid Old Password.";
+    }
+    if (!passpattern.test(newPassword)) {
+        toast.error("Please enter a valid New Password.");
+        errors.password = "Please enter a valid Old Password.";
+    }
 
       setErrors(errors);
       return Object.keys(errors).length === 0;
-  };
-
-  const handleChange = (e) => {
-      const { name , value } = e.target
-      setData((preve)=>{
-          return {
-              ...preve,
-              [name] : value
-          }
-      })
-  };
-
-  console.log("data login",data)
-
-  const handleSubmit = async (e) => {
-      e.preventDefault();
-      if (!validateInputs()) {
-          return;
-      }
-
-      const dataResponse = await fetch(SummaryApi.login.url,{
-          method: SummaryApi.login.method,
-          credentials: 'include',
-          headers: {
-              "content-type":"application/json"
-          },
-          body : JSON.stringify(data)
-      })
-
-      const dataApi = await dataResponse.json()
-
-      if(dataApi.success){
-          toast.success(dataApi.message);
-          navigate('/Home');
-          dispatch(fetchUserDetails())
-      }
-      if(dataApi.error){
-          toast.error(dataApi.message)
-      }
   };
 
   return (
@@ -89,7 +79,7 @@ const Login = () => {
 
       <div className="w-[90%] md:w-[70%] lg:w-[60%] bg-[#C7D2FE] p-10 rounded-lg shadow-2xl relative z-10">
         
-        <h1 className="text-left text-gray-700 text-3xl font-bold mb-8">Welcome Back</h1>
+        <h1 className="text-left text-gray-700 text-3xl font-bold mb-8">Change Password</h1>
         
         <div className="flex flex-col md:flex-row items-center gap-12">
           
@@ -98,14 +88,14 @@ const Login = () => {
           </div>
           
           <div className="md:w-1/2 bg-[#C4B5FD] p-10 rounded-lg">
-            <h2 className="text-start text-gray-500 text-xl mb-6">Please Login to Continue..</h2>
+            <h2 className="text-start text-gray-500 text-xl mb-6">Please Enter your Detail..</h2>
             <form className="space-y-6" onSubmit={handleSubmit}>
               
               <div className="flex items-center border rounded-md p-3 bg-[#faf5ff]">
                 <FaUser className="text-gray-500 text-xl mr-3" />
                 <input
                   type="text"
-                  name='email' value={data.email} onChange={handleChange}
+                  name='email' value={email} onChange={(e) => setEmail(e.target.value)}
                   className="w-full focus:outline-none bg-[#faf5ff]"
                   placeholder="Enter your email"
                   required
@@ -116,9 +106,27 @@ const Login = () => {
                 <FaLock className="text-gray-500 text-xl mr-3" />
                 <input
                   type={showPassword ? "text" : "password"}
-                  name='password' value={data.password} onChange={handleChange}
+                  name='password' value={oldPassword} onChange={(e) => setOldPassword(e.target.value)}
                   className="w-full focus:outline-none bg-[#faf5ff]"
-                  placeholder="Enter your password"
+                  placeholder="Enter your old password"
+                  required
+                />
+                <button
+                  type="button"
+                  onClick={togglePasswordVisibility}
+                  className="text-gray-500 text-xl ml-3 focus:outline-none"
+                >
+                  {showPassword ? <FaEyeSlash /> : <FaEye />}
+                </button>
+              </div>
+
+              <div className="flex items-center border rounded-md p-3 bg-[#faf5ff]">
+                <FaLock className="text-gray-500 text-xl mr-3" />
+                <input
+                  type={showPassword ? "text" : "password"}
+                  name='password' value={newPassword} onChange={(e) => setNewPassword(e.target.value)}
+                  className="w-full focus:outline-none bg-[#faf5ff]"
+                  placeholder="Enter your new password"
                   required
                 />
                 <button
@@ -134,12 +142,12 @@ const Login = () => {
                 type="submit"
                 className="w-full bg-purple-600 text-white py-3 rounded-md font-semibold hover:bg-purple-700 transition-all"
               >
-                Login
+                Change Password
               </button>
             </form>
-            <p className="text-center text-gray-500 mt-6">
+            {/* <p className="text-center text-gray-500 mt-6">
               Don't have an account? <a href="/register" className="text-purple-600 font-medium hover:underline">Register here</a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -147,4 +155,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default ForgotPassword;

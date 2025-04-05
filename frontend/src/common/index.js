@@ -56,7 +56,7 @@ const SummaryApi = {
     },
     updateUser :{
         url: `${backendDomain}/api/UpdateUser`,
-        method : "get"
+        method : "post"
     },
     allQueries :{
         url: `${backendDomain}/api/AllQueries`,
@@ -64,6 +64,18 @@ const SummaryApi = {
     },
     viewblogDetails :{
         url: `${backendDomain}/api/ViewblogDetails`,
+        method : "post"
+    },
+    updateBlog :{
+        url: `${backendDomain}/api/UpdateBlog`,
+        method : "post"
+    },
+    viewqueryDetails :{
+        url: `${backendDomain}/api/viewquerydetails`,
+        method : "post"
+    },
+    ChangePassword :{
+        url: `${backendDomain}/api/changepassword`,
         method : "post"
     },
 }

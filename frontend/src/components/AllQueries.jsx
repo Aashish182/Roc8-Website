@@ -4,6 +4,7 @@ import SummaryApi from '../common';
 import { toast } from "react-toastify";
 import { formatDate } from '../utils/dateFormator';
 import { FaEye } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const AllQueries = () => {
     
@@ -55,7 +56,11 @@ const AllQueries = () => {
                             <td className="border-r text-purple-700 border-gray-300 p-4">{el.number}</td>
                             <td className="border-r text-purple-700 border-gray-300 p-4">{el.message}</td>
                             <td className="border-r text-purple-700 border-gray-300 p-4">{formatDate(el?.sendedAt)}</td>
-                            <td className="border-r text-purple-700 border-gray-300 p-4 justify-items-center"><FaEye  /></td>
+                            <td className="border-r text-purple-700 border-gray-300 p-4 justify-items-center">
+                                <NavLink className='' to={`/ViewQuery/${el?._id}`} >
+                                    <FaEye />
+                                </NavLink>
+                            </td>
                         </tr>
                         ))}
                     </tbody>

@@ -18,6 +18,9 @@ const allUsers = require('../controller/allUsers');
 const updateUser = require('../controller/updateUser');
 const allQueries = require('../controller/allQueries');
 const viewblogdetail = require('../controller/viewblogdetail');
+const updateBlog = require('../controller/updateBlog');
+const viewquerydetail = require('../controller/viewquerydetail');
+const changePassword = require('../controller/changePassword');
 
 router.post("/Register",userRegisterController);
 router.post("/Login",userLoginController);
@@ -31,9 +34,12 @@ router.post("/addjob",addJob);
 router.post("/deletejob",deleteJob);
 router.get("/jobdetails",jobDetailsController);
 router.get("/AllUser",allUsers);
-router.get("/UpdateUser",updateUser);
+router.post("/UpdateUser",updateUser);
 router.get("/AllQueries",allQueries);
 router.post("/viewblogDetails",viewblogdetail);
+router.post("/UpdateBlog",updateBlog);
+router.post("/viewquerydetails",viewquerydetail);
+router.post("/changepassword",changePassword);
 
 
 

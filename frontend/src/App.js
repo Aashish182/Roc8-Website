@@ -19,6 +19,10 @@ import AllUsers from './components/AllUsers';
 import AllQueries from './components/AllQueries';
 import AllBlogs from './components/AllBlogs';
 import ViewBlog from './components/ViewBlog';
+import ViewQuery from './components/ViewQuery';
+import AllJobTrends from './components/AllJobTrends';
+import Profile from './pages/Profile';
+import ForgotPassword from './components/ForgotPassword';
 
 function App() {
   const dispatch = useDispatch();
@@ -110,11 +114,38 @@ function App() {
       ),
     },
     {
+      path: '/Profile',
+      element: (
+        <>
+          <Navbar />
+          <Profile />
+        </>
+      ),
+    },
+    {
+      path: '/ForgotPassword',
+      element: (
+        <>
+          <Navbar />
+          <ForgotPassword />
+        </>
+      ),
+    },
+    {
       path: '/ViewBlog/:id',
       element: (
         <>
           <Navbar />
           <ViewBlog />
+        </>
+      ),
+    },
+    {
+      path: '/ViewQuery/:id',
+      element: (
+        <>
+          <Navbar />
+          <ViewQuery />
         </>
       ),
     },
@@ -134,10 +165,10 @@ function App() {
           path:"AllQueries",
           element:<AllQueries/>
         },
-        // {
-        //   path:"AllBankDetails",
-        //   element:<AllBankDetails/>
-        // }
+        {
+          path:"AllJobTrends",
+          element:<AllJobTrends/>
+        }
       ]
     },
   ]);
