@@ -7,6 +7,9 @@ import img1 from '../asset/Images/predictsalary.jpg';
 import img2 from '../asset/Images/career.jpg';
 import img3 from '../asset/Images/job1.jpg';
 import CountUp from 'react-countup';
+import Banner from '../components/Banner';
+import Banner1 from '../components/Banner1';
+import Banner2 from '../components/Banner2';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -33,7 +36,7 @@ const Home = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-tl from-purple-200 via-purple-100 to-purple-300 min-h-screen">
+    <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 min-h-screen">
         <div className="relative h-[725px] w-[1520px] bg-gradient-to-b from-deep-purple-600 to-purple-500 text-center py-20 text-white border-b border-gray-300">
           <div 
             className="absolute inset-0 bg-no-repeat bg-cover bg-center "
@@ -96,6 +99,8 @@ const Home = () => {
               </div>
             </section>
 
+            <Banner />
+
             <section className="bg-purple-100 p-8 h-[500px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">How It Works</h2>
               <div className="mt-8 flex justify-between">
@@ -122,6 +127,8 @@ const Home = () => {
               <blockquote className="text-gray-700 italic">"This tool helped me negotiate my salary effectively!" - Jane D.</blockquote>
               <blockquote className="text-gray-700 italic mt-4">"I was amazed at how accurate the predictions were!" - John S.</blockquote>
             </section>
+
+            <Banner1 />
 
             <section className="bg-purple-100 p-8 rounded-xl shadow-xl">
               <h2 className="text-3xl text-deep-purple-800 mb-4">Frequently Asked Questions</h2>
@@ -188,8 +195,10 @@ const Home = () => {
             </section>
           </div>
 
+          <Banner2/>
+          <div className="h-[0.5px] bg-gray-800 w-full"></div>
           {/* Call to Action Section */}
-          <section className="bg-deep-purple-600 text-white text-center py-12 rounded-xl mt-12">
+          <section className="bg-deep-purple-600 text-white text-center py-12 rounded-xl">
             <h2 className="text-4xl mb-6">Ready to Find Out Your Worth?</h2>
             <Link to="/PredictSalary" className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition-colors inline-block">
               Predict My Salary

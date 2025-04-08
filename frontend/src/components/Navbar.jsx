@@ -35,25 +35,23 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-purple-600-transparent backdrop-blur-md bg-opacity-30 fixed top-0 left-0 right-0 z-50 shadow-md">
-        <div className="mx-auto px-2 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
+      <nav className="bg-purple-600-transparent h-[100px] backdrop-blur-md bg-opacity-30 fixed top-0 left-0 right-0 z-50 shadow-md">
+        <div className="mx-auto px-2 sm:px-6 lg:px-8 h-full">
+          <div className="flex items-center justify-between h-full">
             <div className="flex items-center justify-center flex-1 sm:justify-start">
-              <div className="text-whitesmoke text-xl font-bold flex">
+              <div className="text-whitesmoke text-xl font-bold flex items-center space-x-2">
                 <img src={logo} alt="Logo" className="h-10" />
-                <div className='text-2xl'>
-                  ROC8
-                </div>
+                <div className="text-2xl">ROC8</div>
               </div>
             </div>
             <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4">
+              <div className="flex space-x-8 items-center h-full">
                 <NavLink
                   to="/Home"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-purple-700 bg-[#e9d5ff] px-3 py-2 rounded-md text-xl font-medium"
-                      : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                      ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                      : "text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
                   }
                 >
                   Home
@@ -62,8 +60,8 @@ const Navbar = () => {
                   to="/Aboutus"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-purple-700 bg-[#e9d5ff] px-3 py-2 rounded-md text-xl font-medium"
-                      : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                      ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                      : "text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
                   }
                 >
                   About
@@ -72,18 +70,28 @@ const Navbar = () => {
                   to="/Services"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-purple-700 bg-[#e9d5ff] px-3 py-2 rounded-md text-xl font-medium"
-                      : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                      ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                      : "text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
                   }
                 >
                   Services
                 </NavLink>
                 <NavLink
+                  to="/Contact"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                      : "text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                  }
+                >
+                  Contact
+                </NavLink>
+                <NavLink
                   to="/Blog"
                   className={({ isActive }) =>
                     isActive
-                      ? "text-purple-700 bg-[#e9d5ff] px-3 py-2 rounded-md text-xl font-medium"
-                      : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                      ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                      : "text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
                   }
                 >
                   Blog
@@ -108,14 +116,14 @@ const Navbar = () => {
 
                         <NavLink
                           to="/Profile"
-                          className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
+                          className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
                         >
                           Profile
                         </NavLink>
                         {user?.role === "ADMIN" && (
                           <NavLink
                             to="/AdminPanel"
-                            className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-t-md"
+                            className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-t-md"
                           >
                             Admin Panel
                           </NavLink>
@@ -123,7 +131,7 @@ const Navbar = () => {
 
                         <div
                           onClick={handleLogout}
-                          className="cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
+                          className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
                         >
                           Logout
                         </div>
@@ -135,8 +143,8 @@ const Navbar = () => {
                     to="/Login"
                     className={({ isActive }) =>
                       isActive
-                        ? "text-purple-700 bg-[#e9d5ff] px-3 py-2 rounded-md text-xl font-medium"
-                        : "text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium"
+                        ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                        : "text-white bg-purple-600 hover:bg-[#d8b4fe] hover:text-purple-700 px-3 py-2 rounded-md text-xl font-medium"
                     }
                   >
                     Login

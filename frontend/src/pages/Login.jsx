@@ -87,7 +87,7 @@ const Login = () => {
       <div className="absolute bottom-20 right-16 w-60 h-60 bg-[#f3e8ff] rounded-lg shadow-lg opacity-80 transform -rotate-6"></div>
       <div className="absolute top-32 right-32 w-52 h-52 bg-[#e9d5ff] rounded-lg shadow-lg opacity-80 transform rotate-3"></div>
 
-      <div className="w-[90%] md:w-[70%] lg:w-[60%] bg-[#C7D2FE] p-10 rounded-lg shadow-2xl relative z-10">
+      <div className="w-[90%] top-12 md:w-[70%] lg:w-[60%] bg-[#C7D2FE] p-10 rounded-lg shadow-2xl relative z-10">
         
         <h1 className="text-left text-gray-700 text-3xl font-bold mb-8">Welcome Back</h1>
         

@@ -23,6 +23,7 @@ import ViewQuery from './components/ViewQuery';
 import AllJobTrends from './components/AllJobTrends';
 import Profile from './pages/Profile';
 import ForgotPassword from './components/ForgotPassword';
+import Contact from './pages/Contact';
 
 function App() {
   const dispatch = useDispatch();
@@ -56,6 +57,15 @@ function App() {
         <>
           <Navbar />
           <Login />
+        </>
+      ),
+    },
+    {
+      path: '/Contact',
+      element: (
+        <>
+          <Navbar />
+          <Contact />
         </>
       ),
     },

@@ -5,7 +5,7 @@ import { FaInstagram, FaTwitter, FaYoutube, FaLinkedin, FaFacebook } from "react
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-purple-400 to-purple-600 text-white py-6 pl-6 pr-6">
+    <footer className="bg-gradient-to-r from-purple-300 to-purple-500 text-white py-6 pl-6 pr-6">
       <div className="container mx-auto border-t border-gray-400 mt-6 pt-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left px-6">
         <div className="mb-6 md:mb-0 justify-between">
           <div className='flex'>
@@ -25,7 +25,7 @@ const Footer = () => {
           <NavLink className='text-2xl hover:text-gray-300 transition' to='/Home'>How it works</NavLink>
           <NavLink className='text-2xl hover:text-gray-300 transition' to='/Aboutus'>Why ROC8</NavLink>
           <NavLink className='text-2xl hover:text-gray-300 transition' to='/Home'>Common Questions</NavLink>
-          <NavLink className='text-2xl hover:text-gray-300 transition' to='/Aboutus'>Help Center</NavLink>
+          <NavLink className='text-2xl hover:text-gray-300 transition' to='/Contact'>Help Center</NavLink>
           <NavLink className='text-2xl hover:text-gray-300 transition' to='/Blog'>Blog</NavLink>
         </div>
         <div className='flex text-center justify-end'>

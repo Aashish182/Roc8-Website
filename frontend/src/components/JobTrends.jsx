@@ -136,9 +136,9 @@ const filteredJobs = jobData.filter((job) =>
 
 
 return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 to-purple-300 mt-16">
-        <div className="container bg-gradient-to-br from-purple-100 to-purple-300 p-6">
-        <h1 className="text-4xl font-bold text-purple-700 text-center">Job Market Trends</h1>
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 to-purple-300 pt-16">
+        <div className="container p-6">
+        <h1 className="text-4xl text-purple-700 text-center mt-8">Job Market Trends</h1>
 
         <div className="flex justify-center mt-6">
         <input
