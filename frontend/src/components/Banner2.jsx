@@ -8,7 +8,7 @@ const Banner2 = () => {
         <div className="w-full px-10 py-16 mt-8">
             <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="flex-1 px-4 py-10 rounded-l-xl text-left">
-                    <h1 className="text-[30px] font-medium ">
+                    <h1 className="text-[30px] font-medium text-purple-600">
                         Track the Latest Job Market Trends
                     </h1>
                     <p className="text-[15px] mt-3">

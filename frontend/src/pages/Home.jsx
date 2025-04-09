@@ -162,23 +162,23 @@ const Home = () => {
 
             <Banner />
 
-            <section className="bg-purple-100 p-8 h-[500px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
+            <section className="bg-purple-100 p-8 h-[550px] rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
               <h2 className="text-3xl text-deep-purple-800 mb-4">How It Works</h2>
               <div className="mt-8 flex justify-between">
-                <div className="bg-[#C7D2FE] p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
-                  <img src={img1} alt="img1" className="h-20 w-20 rounded-full" />
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Predict Your Salary</h3>
-                  <p className="text-gray-600">Get an estimate of your expected salary based on your skills, experience, and job role</p>
+                <div className="bg-[#C7D2FE] p-10 rounded-xl w-full md:w-1/3 h-[400px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img1} alt="img1" className="h-24 w-24 rounded-full" />
+                  <h3 className="text-2xl text-purple-600 mb-2">Predict Your Salary</h3>
+                  <p className="text-black text-xl">Get an estimate of your expected salary based on your skills, experience, and job role</p>
                 </div>
-                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
-                  <img src={img2} alt="img2" className="h-20 w-20 rounded-full" />
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Career Growth Insights</h3>
-                  <p className="text-gray-600">Discover the most in-demand skills and technologies to boost your career.</p>
+                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[400px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img2} alt="img2" className="h-24 w-24 rounded-full" />
+                  <h3 className="text-2xl text-purple-600 mb-2">Career Growth Insights</h3>
+                  <p className="text-black text-xl">Discover the most in-demand skills and technologies to boost your career.</p>
                 </div>
-                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[350px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
-                  <img src={img3} alt="img3" className="h-20 w-20 rounded-full" />
-                  <h3 className="text-xl text-deep-purple-600 mb-2">Job Trends</h3>
-                  <p className="text-gray-600">Stay updated with the latest job market trends and hiring demands in your industry.</p>
+                <div className="bg-[#C7D2FE] ml-2 p-10 rounded-xl w-full md:w-1/3 h-[400px] shadow-md hover:shadow-lg transition-transform hover:translate-y-[-5px] mb-4 md:mb-0 flex flex-col justify-center items-center text-center">
+                  <img src={img3} alt="img3" className="h-24 w-24 rounded-full" />
+                  <h3 className="text-2xl text-purple-600 mb-2">Job Trends</h3>
+                  <p className="text-purple-600 text-xl">Stay updated with the latest job market trends and hiring demands in your industry.</p>
                 </div>
               </div>
             </section>
