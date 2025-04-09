@@ -81,7 +81,7 @@ const Contact = () => {
         <>
         <div className="h-full bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60% ">
             <div className="container mx-auto py-16 px-8">
-                <h1 className="text-4xl text-purple-800 text-center mt-16 mb-4">Contact Us</h1>
+                <h1 className="text-4xl text-purple-800 text-center mt-12 mb-4">Contact Us</h1>
             <div className="flex items-center justify-center gap-2 border-b border-gray-600 pb-4">
             <h1 className="text-xl font-medium">Need help? Get in touch</h1>
             </div>

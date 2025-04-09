@@ -8,7 +8,7 @@ const Profile = () => {
   const user = useSelector((state) => state?.user?.user);
 
   return (
-    <div className=' h-[500px] bg-gradient-to-br from-white via-[#f3e8ff] to-[#e9d5ff]'>
+    <div className='mt-8 h-[500px] bg-gradient-to-br from-white via-[#f3e8ff] to-[#e9d5ff]'>
     <div className=" container w-full h-full px-6 md:px-28 pt-20 bg-gradient-to-br from-white via-[#f3e8ff] to-[#e9d5ff]">
       <h1 className="text-3xl font-semibold pb-4">Profile</h1>
 

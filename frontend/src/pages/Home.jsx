@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
 import { Link, NavLink } from 'react-router-dom'
 import Footer from '../components/Footer';
-import home1 from "../asset/Images/home3.jpg";
+import home1 from "../asset/Images/home6.webp";
 import img1 from '../asset/Images/predictsalary.jpg';
 import img2 from '../asset/Images/career.jpg';
 import img3 from '../asset/Images/job1.jpg';
@@ -36,15 +36,14 @@ const Home = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 min-h-screen">
-        <div className="relative h-[725px] w-[1520px] bg-gradient-to-b from-deep-purple-600 to-purple-500 text-center py-20 text-white border-b border-gray-300">
-          <div 
-            className="absolute inset-0 bg-no-repeat bg-cover bg-center "
-            style={{
-              backgroundImage: `url(${home1})`,
-              opacity:"0.5",
-            }}
-          ></div>
+    <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-200 to-60% min-h-screen">
+        <div className="relative h-[725px] w-[1520px] bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60% text-center py-20 text-white border-b border-gray-300">
+        <div
+          className="absolute inset-0 bg-cover bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${home1})`,
+          }}
+        ></div>
         </div>
           <div className="z-50 transform -translate-y-[500px] text-center">
           <h1 className={`text-7xl text-purple-500 mb-4 transition-transform duration-700 ${animate ? 'animate-train' : 'opacity-0'}`}>

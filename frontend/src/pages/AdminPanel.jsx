@@ -9,7 +9,7 @@ const AdminPanel = () => {
     const user = useSelector(state => state?.user?.user);
 
     return (
-        <div className='flex h-[650px] mt-8'>
+        <div className='flex h-[650px] mt-16'>
             <aside className='bg-[#f9f9f7] w-[500px] min-h-screen pt-5 shadow-md'>
                 <div className='m-10'>
                     <h1 className='flex justify-center text-purple-500 text-xl font-bold'>{user?.role}</h1>

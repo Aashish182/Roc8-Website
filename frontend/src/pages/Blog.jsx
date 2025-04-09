@@ -323,7 +323,7 @@ export default function Blog() {
 
     return (
         <>
-            <div className="w-full min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 relative overflow-x-hidden">
+            <div className="w-full min-h-screen bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60% relative overflow-x-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(purple_1.5px,transparent_1.5px)] bg-[size:14px_14px] opacity-30 z-0" />
                 <div className="relative z-10 max-w-5xl mx-auto p-6 pt-24">
                     <h1 className="text-3xl text-center mb-6 text-purple-900 shadow-sm mt-8">Latest Blogs on Salary Prediction</h1>

@@ -104,8 +104,12 @@ const Navbar = () => {
                     onMouseLeave={() => setIsHovered(false)}
                     onClick={toggleMenu}
                   >
-                    <div className="flex items-center space-x-1 cursor-pointer text-black hover:bg-[#e9d5ff] hover:text-purple-600 px-3 py-2 rounded-md text-xl font-medium">
-                      <span>{user?.name}</span>
+                    <div className="flex items-center space-x-1 cursor-pointer text-white bg-purple-600 hover:bg-[#d8b4fe] hover:text-purple-700 px-3 py-2 rounded-md text-xl font-medium">
+                      <span className={({ isActive }) =>
+                        isActive
+                          ? "text-purple-700 bg-[#d8b4fe] px-3 py-2 rounded-md text-xl font-medium"
+                          : "text-white bg-purple-600 hover:bg-[#d8b4fe] hover:text-purple-700 px-3 py-2 rounded-md text-xl font-medium"
+                      }>{user?.name}</span>
                       <FaRegUserCircle />
                     </div>
 
@@ -116,14 +120,14 @@ const Navbar = () => {
 
                         <NavLink
                           to="/Profile"
-                          className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
+                          className="cursor-pointer border-2 text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
                         >
                           Profile
                         </NavLink>
                         {user?.role === "ADMIN" && (
                           <NavLink
                             to="/AdminPanel"
-                            className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-t-md"
+                            className="cursor-pointer border-2 text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-t-md"
                           >
                             Admin Panel
                           </NavLink>
@@ -131,7 +135,7 @@ const Navbar = () => {
 
                         <div
                           onClick={handleLogout}
-                          className="cursor-pointer text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
+                          className="cursor-pointer border-2 text-black hover:bg-[#d8b4fe] hover:text-purple-600 px-4 py-2 w-full text-left text-lg rounded-b-md"
                         >
                           Logout
                         </div>
