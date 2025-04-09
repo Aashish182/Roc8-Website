@@ -1,16 +1,9 @@
-const uploadCampiagnPermission = require("../helper/permission");
+
 const feedbackModel = require("../models/feedbackModel");
 
 
 async function feedback(req,res) {
     try{
-
-        const sessioUserId = req.userId
-
-        if(!uploadCampiagnPermission(sessioUserId)){
-            throw new Error("Permission Denied, First Login!");
-        }
-
         const { feedback } = req.body;
 
         const userData = new feedbackModel(req.body);

@@ -24,6 +24,7 @@ const changePassword = require('../controller/changePassword');
 const feedback = require('../controller/feedback');
 const feedbackDetails = require('../controller/feedbackDetails');
 const feedbackUser = require('../controller/feedbackUser');
+const userFeedback = require('../controller/userFeedback');
 
 router.post("/Register",userRegisterController);
 router.post("/Login",userLoginController);
@@ -46,6 +47,7 @@ router.post("/changepassword",changePassword);
 router.post("/Feedback",feedback);
 router.get("/FeedbackDetails",feedbackDetails);
 router.post("/Feedbackuser",feedbackUser);
+router.post("/Userfeedback",userFeedback);
 
 
 

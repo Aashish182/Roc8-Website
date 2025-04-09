@@ -24,6 +24,7 @@ import AllJobTrends from './components/AllJobTrends';
 import Profile from './pages/Profile';
 import ForgotPassword from './components/ForgotPassword';
 import Contact from './pages/Contact';
+import AllFeedbacks from './components/AllFeedbacks';
 
 function App() {
   const dispatch = useDispatch();
@@ -178,6 +179,10 @@ function App() {
         {
           path:"AllJobTrends",
           element:<AllJobTrends/>
+        },
+        {
+          path:"AllFeedbacks",
+          element:<AllFeedbacks/>
         }
       ]
     },

@@ -129,7 +129,7 @@ const Home = () => {
                     <h2 class="text-purple-700 text-2xl ">
                         <span id="count1"><CountUp key={countKey} start={100} end={1200} duration={2}/></span>+ Peoples
                     </h2>
-                    <p class="text-gray-400">We have successfully predicted the salary for 1200+ peoples.</p>
+                    <p class="text-gray-800">We have successfully predicted the salary for 1200+ peoples.</p>
                   </div>
                 </div>
                 <div class="flex items-center gap-3 ml-8">
@@ -139,7 +139,7 @@ const Home = () => {
                         <h2 class="text-purple-700 text-2xl">
                           <span id="count2"><CountUp key={countKey} start={0} end={25} duration={2}/></span>+ In demand skills category
                         </h2>
-                        <p class="text-gray-400">We have successfully found the 25+ in-demand skills.</p>
+                        <p class="text-gray-800">We have successfully found the 25+ in-demand skills.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3 ml-8">
@@ -149,7 +149,7 @@ const Home = () => {
                         <h2 class="text-purple-700 text-2xl">
                           <span id="count3"><CountUp key={countKey} start={10} end={100} duration={2}/></span>+ Companies
                         </h2>
-                        <p class="text-gray-400 mb-4">We have a huge number of supporters willing to help you.</p>
+                        <p class="text-gray-800 mb-4">We have a huge number of supporters willing to help you.</p>
                     </div>
                 </div>
               </div>

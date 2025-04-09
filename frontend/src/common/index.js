@@ -90,6 +90,10 @@ const SummaryApi = {
         url: `${backendDomain}/api/Feedbackuser`,
         method : "post"
     },
+    userfeedback :{
+        url: `${backendDomain}/api/Userfeedback`,
+        method : "post"
+    },
 }
 
 
