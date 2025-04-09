@@ -56,7 +56,7 @@ import img5 from '../asset/Images/hero-slide-1.jpg';
 const sections = [
   {
     title: "Our Mission",
-    text: "Empower individuals with data-driven career decisions by providing personalized job recommendations and salary insights. We aim to remove guesswork and bring transparency to job markets through intelligent technology that understands user potential and market demands.",
+    text: "Empower individuals with data-driven career decisions by providing personalized job trends and salary insights. We aim to remove guesswork and bring transparency to job markets through intelligent technology that understands user potential and market demands.",
     img: img1,
   },
   {

@@ -13,9 +13,9 @@ const CareerInsights = () => {
     };
 
     return (
-        <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-300 from-25% via-purple-200 via-40% to-purple-400 to-60%">
-            <div className="flex justify-center ">
-                <div className="w-[800px] h-[300px] mt-24 bg-gradient-to-b from-purple-400 to-purple-500 text-center py-20 text-white rounded-2xl shadow-xl">
+        <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 via-purple-200 to-purple-200">
+            <div className="flex justify-center">
+                <div className="w-[800px] h-[300px] mt-28 bg-gradient-to-b from-purple-400 to-purple-500 text-center py-20 text-white rounded-2xl shadow-xl">
                     <h1 className="text-5xl">Career Growth Insights</h1>
                     <p className="text-lg mt-4">
                         Stay ahead in your career with industry-demanded skills & technologies.

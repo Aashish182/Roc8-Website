@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar';
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useParams } from 'react-router-dom'
 import Footer from '../components/Footer';
 import home1 from "../asset/Images/home6.webp";
 import img1 from '../asset/Images/predictsalary.jpg';
@@ -10,33 +10,81 @@ import CountUp from 'react-countup';
 import Banner from '../components/Banner';
 import Banner1 from '../components/Banner1';
 import Banner2 from '../components/Banner2';
+import SummaryApi from '../common';
+import { formatDate } from '../utils/dateFormator';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   const [animate, setAnimate] = useState(true); 
   const [countKey, setCountKey] = useState(0);
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(false);
+
+  const params = useParams();
+
+  const fetchFeedbackDetails = async () => {
+    setLoading(true);
+    const response = await fetch(SummaryApi.feedbackDetails.url, {
+      method: SummaryApi.feedbackDetails.method,
+      headers: {
+        "content-type": "application/json",
+      },
+      credentials: 'include'
+    });
+    setLoading(false);
+
+    const dataResponse = await response.json();
+    setData(dataResponse.data);
+    dataResponse.data.forEach(item => {
+      if (!creatorNames[item.creator]) {
+        fetchUserData(item.creator);
+      }
+    });    
+  };
+
+  const [creatorNames, setCreatorNames] = useState({});
+  const fetchUserData = async (userId) => {
+    if (!userId || creatorNames[userId]) return; // Avoid fetching if already fetched
   
+    const response = await fetch(SummaryApi.feedbackuser.url, {
+      method: SummaryApi.feedbackuser.method,
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ userId }),
+    });
+  
+    const dataResponse = await response.json();
+    console.log("Fetched name for", userId, ":", dataResponse.data);
+  
+    setCreatorNames(prev => ({
+      ...prev,
+      [userId]: dataResponse.data.name || 'Anonymous',
+    }));
+  };
+  
+
   useEffect(() => {
+    fetchFeedbackDetails();
     const interval1 = setInterval(() => {
       setAnimate(false);
       setTimeout(() => setAnimate(true), 100);
     }, 3000);
-  
     const interval2 = setInterval(() => {
       setCountKey(prevKey => prevKey + 1);
     }, 5000);
-
     return () => {
       clearInterval(interval1);
       clearInterval(interval2);
     };
   }, []);
   
+  
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-200 to-60% min-h-screen">
+    <div className="font-sans text-gray-800 bg-gradient-to-br from-purple-100 from-10% via-purple-200 via-40% to-purple-200 to-60% min-h-screen">
         <div className="relative h-[725px] w-[1520px] bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60% text-center py-20 text-white border-b border-gray-300">
         <div
           className="absolute inset-0 bg-cover bg-no-repeat bg-center"
@@ -52,6 +100,20 @@ const Home = () => {
           <div className="w-40 h-1 bg-purple-400 -mt-2 mx-auto"></div>
           <h4 className='text-lg text-purple-400'>Boost your career by predicting salary and get more things.</h4>
           <h4 className="text-lg text-purple-400">Use our AI-powered tool to predict your salary based on experience and skills.</h4>
+          <div className="flex justify-center gap-4 mt-4">
+            <NavLink
+              to="/Services"
+              className="text-white bg-purple-600 hover:bg-[#d8b4fe] hover:text-purple-700 font-bold py-3 px-6 rounded-full transition-all"
+            >
+              Explore Services
+            </NavLink>
+            <NavLink
+              to="/Contact"
+              className="bg-white text-purple-600 border border-purple-500 hover:bg-purple-200 font-bold py-3 px-6 rounded-full transition-all"
+            >
+              Learn More
+            </NavLink>
+          </div>
           </div>
 
         <div className="container px-8">
@@ -122,9 +184,20 @@ const Home = () => {
             </section>
 
             <section className="bg-purple-100 p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-transform hover:translate-y-[-5px]">
-              <h2 className="text-3xl text-deep-purple-800 mb-4">What Our Users Say</h2>
-              <blockquote className="text-gray-700 italic">"This tool helped me negotiate my salary effectively!" - Jane D.</blockquote>
-              <blockquote className="text-gray-700 italic mt-4">"I was amazed at how accurate the predictions were!" - John S.</blockquote>
+              <h2 className="text-3xl text-deep-purple-800 mb-4">What Our Users Say </h2>
+              {Array.isArray(data) ? (
+                data.slice(0,3).map((item, index) => (
+                  <div className="bg-[#C7D2FE] p-6 rounded-lg shadow-md mb-4" key={item?._id || index}>
+                  <p className="text-gray-800 text-lg mb-2 italic">"{item?.feedback}"</p>
+                  <div className="flex justify-between text-sm text-gray-600">
+                    <span>- {creatorNames[item?.creator] || 'Anonymous'}</span>
+                    <span>{formatDate(item?.submittedAt)}</span>
+                  </div>
+                </div>
+                ))
+              ) : (
+                <p className="text-gray-600 italic">No feedback submitted yet.</p>
+              )}
             </section>
 
             <Banner1 />

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import loginimg from "../asset/Images/login.png";
 import { FaUser, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify";
 import SummaryApi from "../common";
 import Context from "../context";
@@ -77,7 +77,7 @@ const ForgotPassword = () => {
       <div className="absolute bottom-20 right-16 w-60 h-60 bg-[#f3e8ff] rounded-lg shadow-lg opacity-80 transform -rotate-6"></div>
       <div className="absolute top-32 right-32 w-52 h-52 bg-[#e9d5ff] rounded-lg shadow-lg opacity-80 transform rotate-3"></div>
 
-      <div className="w-[90%] md:w-[70%] lg:w-[60%] bg-[#C7D2FE] p-10 rounded-lg shadow-2xl relative z-10">
+      <div className="w-[90%] md:w-[70%] lg:w-[60%] bg-[#C7D2FE] p-10 mt-16 rounded-lg shadow-2xl relative z-10">
         
         <h1 className="text-left text-gray-700 text-3xl font-bold mb-8">Change Password</h1>
         
@@ -145,6 +145,9 @@ const ForgotPassword = () => {
                 Change Password
               </button>
             </form>
+            <p className="text-center text-gray-500 mt-6">
+              Found your Password ? <NavLink to="/login" className="text-purple-600 font-medium hover:underline">Login here</NavLink>
+            </p>
             {/* <p className="text-center text-gray-500 mt-6">
               Don't have an account? <a href="/register" className="text-purple-600 font-medium hover:underline">Register here</a>
             </p> */}

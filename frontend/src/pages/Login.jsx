@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import loginimg from "../asset/Images/login.png";
 import { FaUser, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify";
 import SummaryApi from "../common";
 import Context from "../context";
@@ -137,8 +137,13 @@ const Login = () => {
                 Login
               </button>
             </form>
+            <div className="text-right">
+              <NavLink to="/forgotpassword" className="text-sm text-purple-600 hover:underline font-medium">
+                Forgot Password ?
+              </NavLink>
+            </div>
             <p className="text-center text-gray-500 mt-6">
-              Don't have an account? <a href="/register" className="text-purple-600 font-medium hover:underline">Register here</a>
+              Don't have an account? <NavLink to="/register" className="text-purple-600 font-medium hover:underline">Register here</NavLink>
             </p>
           </div>
         </div>

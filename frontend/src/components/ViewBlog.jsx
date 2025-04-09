@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 const ViewBlog = () => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(false);
-  const [creatorName, setCreatorName] = useState("");
+  const [creatorNames, setCreatorNames] = useState({});
   const [isEditing, setIsEditing] = useState(false);
 
   const [editedTitle, setEditedTitle] = useState("");
@@ -33,25 +33,29 @@ const ViewBlog = () => {
     setData(dataResponse.data);
     setEditedTitle(dataResponse.data.title);
     setEditedContent(dataResponse.data.content);
-    fetchUserData(dataResponse?.data?.creator);
+    if (dataResponse.data?.creator && !creatorNames[dataResponse.data.creator]) {
+      fetchUserData(dataResponse.data.creator);
+    }
   };
 
   const fetchUserData = async (userId) => {
-    if (!userId) return;
-    try {
-      const response = await fetch(SummaryApi.bloguser.url, {
-        method: SummaryApi.bloguser.method,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ userId }),
-      });
-
-      const dataResponse = await response.json();
-      setCreatorName(dataResponse.data);
-    } catch (error) {
-      console.error("Error fetching user data:", error);
-    }
+    if (!userId || creatorNames[userId]) return; 
+  
+    const response = await fetch(SummaryApi.feedbackuser.url, {
+      method: SummaryApi.feedbackuser.method,
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ userId }),
+    });
+  
+    const dataResponse = await response.json();
+    console.log("Fetched name for", userId, ":", dataResponse.data);
+  
+    setCreatorNames(prev => ({
+      ...prev,
+      [userId]: dataResponse.data.name || 'Anonymous',
+    }));
   };
 
   useEffect(() => {
@@ -81,9 +85,9 @@ const ViewBlog = () => {
     }
   };
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-300 from-25% via-purple-200 via-40% to-purple-400 to-60%">
-    <div className="container p-2 mt-16">
-        <h2 className="text-center text-2xl font-bold text-purple-600 mb-6">View Blog</h2>
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60%">
+    <div className="container p-2">
+        <h2 className="text-center text-2xl font-bold text-purple-600 mb-6 mt-24">View Blog</h2>
       <div className=" relative flex flex-col gap-6">
         <div key={data.id} className="border border-gray-300 p-4 rounded-lg shadow-md bg-white flex" >
             <div className="w-[500px] h-full"> <img src={data.image} /></div>
@@ -110,7 +114,7 @@ const ViewBlog = () => {
               )}
               <div className="absolute bottom-0 left-[564px] p-4">
                 <p className="text-sm text-gray-500">
-                    <strong>Author:</strong> {creatorName}
+                    <strong>Author:</strong> {creatorNames[data.creator] || "Anonymous"}
                 </p>
                 <p className="text-sm text-gray-500">
                   <strong>Published On:</strong> {formatDate(data?.createdAt)}

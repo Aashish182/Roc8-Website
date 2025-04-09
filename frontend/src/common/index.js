@@ -78,6 +78,18 @@ const SummaryApi = {
         url: `${backendDomain}/api/changepassword`,
         method : "post"
     },
+    feedback :{
+        url: `${backendDomain}/api/Feedback`,
+        method : "post"
+    },
+    feedbackDetails :{
+        url: `${backendDomain}/api/FeedbackDetails`,
+        method : "get"
+    },
+    feedbackuser :{
+        url: `${backendDomain}/api/Feedbackuser`,
+        method : "post"
+    },
 }
 
 

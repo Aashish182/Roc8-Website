@@ -3,7 +3,7 @@ import loginimg from "../asset/Images/login.png";
 import { FaUser , FaEnvelope, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import SummaryApi from '../common';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const Register = () => {
@@ -176,7 +176,7 @@ const Register = () => {
               </button>
             </form>
             <p className="text-center text-gray-500 mt-6">
-              Already have an account? <a href="/login" className="text-purple-600 font-medium hover:underline">Login here</a>
+              Already have an account? <NavLink to="/login" className="text-purple-600 font-medium hover:underline">Login here</NavLink>
             </p>
           </div>
         </div>

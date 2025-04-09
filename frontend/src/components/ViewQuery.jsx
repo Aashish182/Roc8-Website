@@ -29,7 +29,8 @@ const ViewQuery = () => {
       }, []);
 
   return (
-    <div className="mt-8 flex flex-col md:flex-row items-center gap-6 p-4">
+    <div className="bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60%">
+    <div className="container mt-24 flex flex-col md:flex-row items-center gap-6 p-4">
       <img className="w-full md:w-1/2 h-[560px]" src={Aboutusimg} alt="Query View" />
       <div className="w-full md:w-1/2">
         <div className="space-y-4">
@@ -51,6 +52,7 @@ const ViewQuery = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

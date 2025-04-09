@@ -1,16 +1,14 @@
 const mongoose = require('mongoose');
 const schema = mongoose.Schema;
 
-const blogSchema = new mongoose.Schema({
-    title: String,
-    image: String,
-    content: String,
+const feedbackSchema = new mongoose.Schema({
+    feedback: String,
     creator: {
         type: schema.Types.ObjectId,
         ref: 'users',
         required : true
     },
-    createdAt: {
+    submittedAt: {
         type: Date,
         default: Date.now,
     },
@@ -19,7 +17,7 @@ const blogSchema = new mongoose.Schema({
 })
 
 
-const blogModel = mongoose.model("blog",blogSchema);
+const feedbackModel = mongoose.model("feedback",feedbackSchema);
 
 
-module.exports = blogModel;
+module.exports = feedbackModel;
