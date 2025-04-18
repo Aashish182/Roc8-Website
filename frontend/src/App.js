@@ -25,6 +25,7 @@ import Profile from './pages/Profile';
 import ForgotPassword from './components/ForgotPassword';
 import Contact from './pages/Contact';
 import AllFeedbacks from './components/AllFeedbacks';
+import PredictSalary from './pages/PredictSalary';
 
 function App() {
   const dispatch = useDispatch();
@@ -121,6 +122,15 @@ function App() {
         <>
           <Navbar />
           <JobTrends />
+        </>
+      ),
+    },
+    {
+      path: '/PredictSalary',
+      element: (
+        <>
+          <Navbar />
+          <PredictSalary />
         </>
       ),
     },

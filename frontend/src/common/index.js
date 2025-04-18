@@ -94,6 +94,10 @@ const SummaryApi = {
         url: `${backendDomain}/api/Userfeedback`,
         method : "post"
     },
+    salaryDetails :{
+        url: `${backendDomain}/api/salarydetails`,
+        method : "post"
+    },
 }
 
 

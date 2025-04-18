@@ -12,6 +12,7 @@ const Services = () => {
       title: 'AI-Powered Salary Prediction',
       description: 'Our advanced AI model predicts salaries based on experience, skills, and industry trends.',
       image: img1,
+      to: '/PredictSalary',
     },
     {
       title: 'Career Growth Insights',

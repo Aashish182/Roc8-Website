@@ -1,8 +1,8 @@
 const express = require('express');
+const router = express.Router();
 
-const router = express.Router()
-
-const userRegisterController= require('../controller/userRegister');
+// Controller imports
+const userRegisterController = require('../controller/userRegister');
 const userLoginController = require('../controller/userLogin');
 const userDetailsController = require('../controller/userDetails');
 const authToken = require('../middleware/authToken');
@@ -25,30 +25,31 @@ const feedback = require('../controller/feedback');
 const feedbackDetails = require('../controller/feedbackDetails');
 const feedbackUser = require('../controller/feedbackUser');
 const userFeedback = require('../controller/userFeedback');
+const salaryPredict = require('../controller/salaryPredict');
 
-router.post("/Register",userRegisterController);
-router.post("/Login",userLoginController);
-router.get("/user-details",authToken,userDetailsController);
-router.get("/userLogout",userLogout);
-router.post("/create-blog",createBlog);
-router.get("/blogdetails",blogDetailsController);
-router.get("/blog-user",blogUser);
-router.post("/aboutusdetail",aboutusDetails);
-router.post("/addjob",addJob);
-router.post("/deletejob",deleteJob);
-router.get("/jobdetails",jobDetailsController);
-router.get("/AllUser",allUsers);
-router.post("/UpdateUser",updateUser);
-router.get("/AllQueries",allQueries);
-router.post("/viewblogDetails",viewblogdetail);
-router.post("/UpdateBlog",updateBlog);
-router.post("/viewquerydetails",viewquerydetail);
-router.post("/changepassword",changePassword);
-router.post("/Feedback",feedback);
-router.get("/FeedbackDetails",feedbackDetails);
-router.post("/Feedbackuser",feedbackUser);
-router.post("/Userfeedback",userFeedback);
-
-
+// Routes
+router.post("/Register", userRegisterController);
+router.post("/Login", userLoginController);
+router.get("/user-details", authToken, userDetailsController);
+router.get("/userLogout", userLogout);
+router.post("/create-blog", createBlog);
+router.get("/blogdetails", blogDetailsController);
+router.get("/blog-user", blogUser);
+router.post("/aboutusdetail", aboutusDetails);
+router.post("/addjob", addJob);
+router.post("/deletejob", deleteJob);
+router.get("/jobdetails", jobDetailsController);
+router.get("/AllUser", allUsers);
+router.post("/UpdateUser", updateUser);
+router.get("/AllQueries", allQueries);
+router.post("/viewblogDetails", viewblogdetail);
+router.post("/UpdateBlog", updateBlog);
+router.post("/viewquerydetails", viewquerydetail);
+router.post("/changepassword", changePassword);
+router.post("/Feedback", feedback);
+router.get("/FeedbackDetails", feedbackDetails);
+router.post("/Feedbackuser", feedbackUser);
+router.post("/Userfeedback", userFeedback);
+router.post("/salarydetails", salaryPredict);  // Salary prediction route
 
 module.exports = router;

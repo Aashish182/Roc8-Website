@@ -1,0 +1,7300 @@
+[
+  {
+    "courseId": "C001",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "AWS",
+      "NumPy",
+      "MongoDB",
+      "JavaScript",
+      "CSS"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C002",
+    "title": "Game Development with Unity",
+    "language": [
+      "Solidity",
+      "CSS",
+      "Pandas",
+      "HTML",
+      "Java"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C003",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Kubernetes",
+      "Node.js"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C004",
+    "title": "Game Development with Unity",
+    "language": [
+      "Solidity",
+      "CSS",
+      "Swift",
+      "Java"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C005",
+    "title": "Blockchain Basics",
+    "language": [
+      "MongoDB",
+      "JavaScript",
+      "React",
+      "Pandas",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C006",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Shell",
+      "Java",
+      "Node.js",
+      "Python",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C007",
+    "title": "Blockchain Basics",
+    "language": [
+      "React",
+      "TensorFlow",
+      "Python",
+      "Node.js"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C008",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "HTML",
+      "Scikit-learn",
+      "React",
+      "Swift",
+      "TensorFlow"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C009",
+    "title": "Game Development with Unity",
+    "language": [
+      "CSS",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C010",
+    "title": "Game Development with Unity",
+    "language": [
+      "JavaScript",
+      "TensorFlow"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C011",
+    "title": "Frontend Development with React",
+    "language": [
+      "Kotlin",
+      "Shell",
+      "AWS",
+      "HTML",
+      "TensorFlow"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C012",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Kubernetes",
+      "Shell",
+      "Kotlin",
+      "Node.js"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C013",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Java",
+      "Kubernetes",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C014",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "AWS",
+      "Bash"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C015",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Docker",
+      "Scikit-learn",
+      "Python"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C016",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Node.js",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C017",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Shell",
+      "Swift",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C018",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Kubernetes",
+      "Shell",
+      "HTML",
+      "Python"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C019",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Bash",
+      "Solidity"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C020",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Docker",
+      "TensorFlow",
+      "Solidity",
+      "React",
+      "MongoDB"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C021",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "TensorFlow",
+      "Java",
+      "Kotlin",
+      "NumPy",
+      "CSS"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C022",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Bash",
+      "Pandas"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C023",
+    "title": "Data Science with Python",
+    "language": [
+      "Kotlin",
+      "JavaScript"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C024",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Scikit-learn",
+      "CSS",
+      "MongoDB",
+      "AWS",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C025",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "MongoDB",
+      "Docker"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C026",
+    "title": "Frontend Development with React",
+    "language": [
+      "Java",
+      "CSS",
+      "C#",
+      "Swift"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C027",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Solidity",
+      "HTML",
+      "AWS"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C028",
+    "title": "Frontend Development with React",
+    "language": [
+      "Bash",
+      "Docker",
+      "Python",
+      "CSS",
+      "MongoDB"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C029",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Node.js",
+      "React",
+      "TensorFlow",
+      "Solidity",
+      "Pandas"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C030",
+    "title": "Frontend Development with React",
+    "language": [
+      "Node.js",
+      "React",
+      "C#"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C031",
+    "title": "Game Development with Unity",
+    "language": [
+      "HTML",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C032",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Python",
+      "CSS"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C033",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "HTML",
+      "MongoDB",
+      "C#"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C034",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Swift",
+      "JavaScript"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C035",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Python",
+      "Shell"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C036",
+    "title": "Frontend Development with React",
+    "language": [
+      "Node.js",
+      "Swift",
+      "HTML"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C037",
+    "title": "Blockchain Basics",
+    "language": [
+      "Docker",
+      "MongoDB",
+      "Shell",
+      "Kubernetes"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C038",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Node.js",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C039",
+    "title": "Data Science with Python",
+    "language": [
+      "Kotlin",
+      "Node.js",
+      "JavaScript",
+      "C#",
+      "MongoDB"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C040",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Solidity",
+      "MongoDB",
+      "Kubernetes",
+      "NumPy",
+      "Kotlin"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C041",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Solidity",
+      "JavaScript"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C042",
+    "title": "Full Stack Web Development",
+    "language": [
+      "AWS",
+      "Scikit-learn",
+      "Swift",
+      "Bash",
+      "Pandas"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C043",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "HTML",
+      "JavaScript"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C044",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Python",
+      "Shell",
+      "Kotlin",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C045",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Java",
+      "Bash",
+      "Docker",
+      "Solidity",
+      "Pandas"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C046",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C047",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Pandas",
+      "Docker",
+      "Solidity",
+      "Scikit-learn"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C048",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "MongoDB",
+      "HTML"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C049",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Kotlin",
+      "Docker",
+      "TensorFlow"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C050",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "React",
+      "NumPy",
+      "Pandas"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C051",
+    "title": "Full Stack Web Development",
+    "language": [
+      "AWS",
+      "NumPy",
+      "Shell",
+      "JavaScript"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C052",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "MongoDB",
+      "Swift"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C053",
+    "title": "Frontend Development with React",
+    "language": [
+      "Node.js",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C054",
+    "title": "Blockchain Basics",
+    "language": [
+      "Node.js",
+      "Docker",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C055",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "MongoDB",
+      "C#",
+      "Python",
+      "React",
+      "TensorFlow"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C056",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "AWS",
+      "Swift",
+      "Kubernetes",
+      "Python"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C057",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "JavaScript",
+      "AWS",
+      "TensorFlow",
+      "C#"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C058",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "HTML",
+      "React",
+      "Scikit-learn"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C059",
+    "title": "Frontend Development with React",
+    "language": [
+      "Kubernetes",
+      "AWS"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C060",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "NumPy",
+      "Swift",
+      "Solidity",
+      "TensorFlow"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C061",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kubernetes",
+      "CSS"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C062",
+    "title": "Blockchain Basics",
+    "language": [
+      "Kotlin",
+      "Solidity",
+      "CSS",
+      "MongoDB"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C063",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Node.js",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C064",
+    "title": "Full Stack Web Development",
+    "language": [
+      "C#",
+      "Shell",
+      "Python",
+      "MongoDB",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C065",
+    "title": "Frontend Development with React",
+    "language": [
+      "C#",
+      "CSS",
+      "AWS",
+      "React"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C066",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "AWS",
+      "HTML",
+      "Pandas",
+      "NumPy",
+      "C#"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C067",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Swift",
+      "C#"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C068",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "CSS",
+      "HTML",
+      "Pandas",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C069",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Swift",
+      "Python"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C070",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "AWS",
+      "Pandas"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C071",
+    "title": "Game Development with Unity",
+    "language": [
+      "Shell",
+      "Java",
+      "Bash",
+      "Kotlin"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C072",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Kubernetes",
+      "Pandas",
+      "AWS",
+      "Python",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C073",
+    "title": "Data Science with Python",
+    "language": [
+      "React",
+      "Pandas"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C074",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Swift",
+      "TensorFlow",
+      "Kubernetes"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C075",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Docker",
+      "Kubernetes",
+      "Pandas",
+      "Bash",
+      "NumPy"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C076",
+    "title": "Frontend Development with React",
+    "language": [
+      "NumPy",
+      "Docker",
+      "JavaScript",
+      "Solidity"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C077",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "MongoDB",
+      "CSS"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C078",
+    "title": "Blockchain Basics",
+    "language": [
+      "Swift",
+      "Shell",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C079",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Kotlin",
+      "Node.js",
+      "Kubernetes",
+      "Solidity",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C080",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Pandas",
+      "NumPy",
+      "JavaScript"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C081",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "MongoDB",
+      "Swift",
+      "Scikit-learn"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C082",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "AWS",
+      "CSS",
+      "Python",
+      "Java"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C083",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "AWS",
+      "JavaScript",
+      "Solidity",
+      "C#",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C084",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Node.js",
+      "NumPy",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C085",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "MongoDB",
+      "Bash"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C086",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Solidity",
+      "C#"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C087",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "CSS"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C088",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Java",
+      "TensorFlow",
+      "Bash"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C089",
+    "title": "Data Science with Python",
+    "language": [
+      "Docker",
+      "Java",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C090",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Python",
+      "Kotlin",
+      "Java",
+      "Pandas"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C091",
+    "title": "Frontend Development with React",
+    "language": [
+      "React",
+      "MongoDB"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C092",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "Shell"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C093",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Pandas",
+      "C#"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C094",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "CSS",
+      "Solidity",
+      "Kotlin",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C095",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Kubernetes",
+      "NumPy",
+      "Scikit-learn",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C096",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "JavaScript",
+      "Node.js",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C097",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Pandas",
+      "TensorFlow",
+      "Bash"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C098",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Docker",
+      "Swift",
+      "Scikit-learn"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C099",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Pandas",
+      "NumPy",
+      "C#",
+      "AWS"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C100",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Swift",
+      "Kubernetes",
+      "MongoDB",
+      "C#"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C101",
+    "title": "Game Development with Unity",
+    "language": [
+      "Pandas",
+      "C#",
+      "TensorFlow",
+      "NumPy"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C102",
+    "title": "Data Science with Python",
+    "language": [
+      "Bash",
+      "Kotlin",
+      "Shell",
+      "AWS",
+      "TensorFlow"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C103",
+    "title": "Frontend Development with React",
+    "language": [
+      "MongoDB",
+      "Shell",
+      "CSS"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C104",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "Pandas"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C105",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "JavaScript",
+      "MongoDB",
+      "C#",
+      "Scikit-learn",
+      "Bash"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C106",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Pandas",
+      "Python",
+      "Kubernetes",
+      "Solidity",
+      "NumPy"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C107",
+    "title": "Data Science with Python",
+    "language": [
+      "C#",
+      "Kotlin"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C108",
+    "title": "Game Development with Unity",
+    "language": [
+      "TensorFlow",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C109",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Shell",
+      "Scikit-learn",
+      "HTML"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C110",
+    "title": "Data Science with Python",
+    "language": [
+      "Solidity",
+      "CSS"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C111",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Kotlin",
+      "Solidity",
+      "Docker"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C112",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "JavaScript",
+      "Kubernetes",
+      "TensorFlow"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C113",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "CSS",
+      "Scikit-learn",
+      "NumPy"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C114",
+    "title": "Data Science with Python",
+    "language": [
+      "React",
+      "C#",
+      "Bash",
+      "Kubernetes",
+      "Scikit-learn"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C115",
+    "title": "Data Science with Python",
+    "language": [
+      "Swift",
+      "JavaScript"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C116",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Pandas",
+      "TensorFlow",
+      "Node.js"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C117",
+    "title": "Frontend Development with React",
+    "language": [
+      "Swift",
+      "CSS",
+      "Bash",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C118",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Bash",
+      "Scikit-learn",
+      "AWS",
+      "JavaScript"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C119",
+    "title": "Blockchain Basics",
+    "language": [
+      "MongoDB",
+      "HTML"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C120",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kubernetes",
+      "Java",
+      "AWS",
+      "C#"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C121",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Solidity",
+      "Docker",
+      "NumPy",
+      "React",
+      "Kubernetes"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C122",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "Python",
+      "Scikit-learn",
+      "Shell"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C123",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Node.js",
+      "Java"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C124",
+    "title": "Game Development with Unity",
+    "language": [
+      "JavaScript",
+      "TensorFlow",
+      "React",
+      "NumPy",
+      "Docker"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C125",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Solidity",
+      "Scikit-learn",
+      "Bash",
+      "Java"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C126",
+    "title": "Game Development with Unity",
+    "language": [
+      "Docker",
+      "HTML",
+      "C#"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C127",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "CSS",
+      "Solidity",
+      "Java"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C128",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Docker",
+      "JavaScript",
+      "Solidity",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C129",
+    "title": "Blockchain Basics",
+    "language": [
+      "Scikit-learn",
+      "Solidity",
+      "TensorFlow",
+      "Bash",
+      "HTML"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C130",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Swift",
+      "HTML",
+      "Pandas",
+      "TensorFlow",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C131",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Scikit-learn",
+      "Bash"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C132",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Swift",
+      "AWS",
+      "MongoDB",
+      "JavaScript",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C133",
+    "title": "Blockchain Basics",
+    "language": [
+      "Java",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C134",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "C#",
+      "AWS",
+      "TensorFlow",
+      "Shell"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C135",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Swift",
+      "NumPy",
+      "Python",
+      "C#",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C136",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "React",
+      "Docker",
+      "AWS"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C137",
+    "title": "Blockchain Basics",
+    "language": [
+      "TensorFlow",
+      "HTML",
+      "Docker"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C138",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Pandas",
+      "Bash",
+      "Python",
+      "CSS",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C139",
+    "title": "Data Science with Python",
+    "language": [
+      "C#",
+      "NumPy",
+      "React",
+      "JavaScript",
+      "Solidity"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C140",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Swift",
+      "Shell",
+      "TensorFlow"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C141",
+    "title": "Game Development with Unity",
+    "language": [
+      "Swift",
+      "React",
+      "Python",
+      "Shell",
+      "JavaScript"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C142",
+    "title": "Frontend Development with React",
+    "language": [
+      "MongoDB",
+      "Scikit-learn",
+      "React",
+      "Kotlin"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C143",
+    "title": "Data Science with Python",
+    "language": [
+      "Pandas",
+      "React",
+      "Java",
+      "Node.js"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C144",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Docker",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C145",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Shell",
+      "AWS",
+      "C#",
+      "TensorFlow"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C146",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Python",
+      "Pandas",
+      "CSS",
+      "C#",
+      "React"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C147",
+    "title": "Blockchain Basics",
+    "language": [
+      "CSS",
+      "Scikit-learn",
+      "Shell"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C148",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Docker",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C149",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Node.js",
+      "MongoDB",
+      "Pandas"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C150",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Scikit-learn",
+      "Java",
+      "Node.js",
+      "CSS"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C151",
+    "title": "Data Science with Python",
+    "language": [
+      "Shell",
+      "Solidity",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C152",
+    "title": "Blockchain Basics",
+    "language": [
+      "Docker",
+      "Python",
+      "MongoDB",
+      "NumPy",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C153",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "JavaScript",
+      "React"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C154",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "MongoDB",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C155",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "Bash"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C156",
+    "title": "Game Development with Unity",
+    "language": [
+      "CSS",
+      "Shell",
+      "AWS",
+      "Scikit-learn"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C157",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Docker",
+      "Shell",
+      "Swift",
+      "MongoDB",
+      "NumPy"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C158",
+    "title": "Blockchain Basics",
+    "language": [
+      "Docker",
+      "Kubernetes",
+      "Node.js",
+      "Swift"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C159",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Java",
+      "Python",
+      "Bash",
+      "HTML",
+      "Swift"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C160",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Shell",
+      "Bash",
+      "AWS",
+      "TensorFlow",
+      "MongoDB"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C161",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "MongoDB",
+      "Python",
+      "JavaScript",
+      "CSS"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C162",
+    "title": "Blockchain Basics",
+    "language": [
+      "Python",
+      "Docker",
+      "C#",
+      "Kotlin"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C163",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "C#",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C164",
+    "title": "Data Science with Python",
+    "language": [
+      "HTML",
+      "NumPy",
+      "Python",
+      "TensorFlow"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C165",
+    "title": "Blockchain Basics",
+    "language": [
+      "Docker",
+      "React",
+      "Java",
+      "NumPy",
+      "HTML"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C166",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Kotlin",
+      "React"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C167",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "C#",
+      "Swift",
+      "Bash"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C168",
+    "title": "Game Development with Unity",
+    "language": [
+      "CSS",
+      "Bash",
+      "React",
+      "Python",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C169",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "MongoDB",
+      "C#",
+      "NumPy",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C170",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Kubernetes",
+      "Kotlin",
+      "Java",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C171",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "TensorFlow",
+      "HTML",
+      "Python",
+      "Kotlin"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C172",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Swift",
+      "HTML",
+      "Kotlin",
+      "Scikit-learn",
+      "JavaScript"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C173",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Kotlin",
+      "NumPy",
+      "Docker",
+      "Bash",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C174",
+    "title": "Game Development with Unity",
+    "language": [
+      "Kubernetes",
+      "Scikit-learn",
+      "JavaScript",
+      "Node.js",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C175",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "MongoDB",
+      "Bash"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C176",
+    "title": "Game Development with Unity",
+    "language": [
+      "C#",
+      "TensorFlow",
+      "Java"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C177",
+    "title": "Game Development with Unity",
+    "language": [
+      "Bash",
+      "NumPy",
+      "AWS"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C178",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "NumPy",
+      "Pandas",
+      "TensorFlow",
+      "Kotlin"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C179",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Python",
+      "C#",
+      "Scikit-learn",
+      "AWS"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C180",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "TensorFlow",
+      "C#",
+      "Shell"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C181",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Scikit-learn",
+      "Docker",
+      "Kotlin"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C182",
+    "title": "Game Development with Unity",
+    "language": [
+      "JavaScript",
+      "CSS",
+      "Solidity",
+      "Scikit-learn",
+      "React"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C183",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "HTML",
+      "AWS",
+      "React"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C184",
+    "title": "Frontend Development with React",
+    "language": [
+      "Scikit-learn",
+      "Node.js",
+      "Solidity"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C185",
+    "title": "Game Development with Unity",
+    "language": [
+      "Java",
+      "Shell",
+      "Scikit-learn"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C186",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "HTML",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C187",
+    "title": "Frontend Development with React",
+    "language": [
+      "Java",
+      "Python",
+      "Pandas"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C188",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Kotlin",
+      "NumPy",
+      "Shell",
+      "Docker",
+      "Scikit-learn"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C189",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Kubernetes",
+      "Swift",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C190",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Swift",
+      "TensorFlow",
+      "Java"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C191",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "AWS",
+      "NumPy",
+      "Docker",
+      "Kotlin"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C192",
+    "title": "Full Stack Web Development",
+    "language": [
+      "JavaScript",
+      "Kubernetes",
+      "MongoDB",
+      "NumPy"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C193",
+    "title": "Game Development with Unity",
+    "language": [
+      "Kotlin",
+      "Scikit-learn",
+      "Kubernetes",
+      "Swift",
+      "Solidity"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C194",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Solidity",
+      "TensorFlow"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C195",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Scikit-learn",
+      "Bash",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C196",
+    "title": "Full Stack Web Development",
+    "language": [
+      "HTML",
+      "Java",
+      "AWS",
+      "TensorFlow",
+      "Shell"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C197",
+    "title": "Blockchain Basics",
+    "language": [
+      "Bash",
+      "Docker",
+      "Swift",
+      "Kotlin"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C198",
+    "title": "Blockchain Basics",
+    "language": [
+      "Bash",
+      "Swift"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C199",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Java",
+      "AWS",
+      "Bash",
+      "Kubernetes",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C200",
+    "title": "Blockchain Basics",
+    "language": [
+      "React",
+      "Kubernetes",
+      "Kotlin",
+      "JavaScript"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C201",
+    "title": "Full Stack Web Development",
+    "language": [
+      "JavaScript",
+      "React",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C202",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Java",
+      "Scikit-learn",
+      "MongoDB",
+      "Kubernetes"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C203",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Kotlin",
+      "Python",
+      "Pandas",
+      "CSS"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C204",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Docker",
+      "Swift"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C205",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Docker",
+      "Pandas",
+      "NumPy",
+      "JavaScript"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C206",
+    "title": "Data Science with Python",
+    "language": [
+      "Node.js",
+      "Shell",
+      "Pandas",
+      "Kotlin",
+      "C#"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C207",
+    "title": "Frontend Development with React",
+    "language": [
+      "Solidity",
+      "HTML",
+      "React"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C208",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Kubernetes",
+      "Node.js",
+      "JavaScript"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C209",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kotlin",
+      "Swift",
+      "AWS",
+      "Kubernetes"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C210",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Bash",
+      "AWS",
+      "Python",
+      "Node.js"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C211",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "HTML",
+      "Scikit-learn",
+      "MongoDB",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C212",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "HTML"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C213",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "React",
+      "TensorFlow",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C214",
+    "title": "Frontend Development with React",
+    "language": [
+      "Docker",
+      "AWS"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C215",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Java",
+      "Kubernetes",
+      "MongoDB"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C216",
+    "title": "Game Development with Unity",
+    "language": [
+      "React",
+      "Scikit-learn",
+      "HTML"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C217",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "HTML",
+      "AWS",
+      "Scikit-learn",
+      "Kubernetes"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C218",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Kubernetes",
+      "React",
+      "Kotlin",
+      "Swift",
+      "Node.js"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C219",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "Docker",
+      "React",
+      "HTML",
+      "MongoDB"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C220",
+    "title": "Frontend Development with React",
+    "language": [
+      "Scikit-learn",
+      "C#",
+      "Shell",
+      "Kubernetes"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C221",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "NumPy",
+      "JavaScript",
+      "AWS"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C222",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Python",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C223",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "C#",
+      "Kubernetes",
+      "Python",
+      "Java",
+      "Scikit-learn"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C224",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Node.js",
+      "MongoDB",
+      "Scikit-learn",
+      "Docker",
+      "Kubernetes"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C225",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "TensorFlow",
+      "Kubernetes"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C226",
+    "title": "Blockchain Basics",
+    "language": [
+      "C#",
+      "CSS",
+      "Solidity"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C227",
+    "title": "Data Science with Python",
+    "language": [
+      "AWS",
+      "Scikit-learn"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C228",
+    "title": "Game Development with Unity",
+    "language": [
+      "Pandas",
+      "JavaScript",
+      "Kubernetes",
+      "Shell",
+      "React"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C229",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Scikit-learn",
+      "Kubernetes"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C230",
+    "title": "Frontend Development with React",
+    "language": [
+      "C#",
+      "Docker",
+      "Pandas",
+      "Kubernetes"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C231",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "CSS",
+      "React",
+      "Scikit-learn",
+      "Python"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C232",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "Kubernetes"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C233",
+    "title": "Blockchain Basics",
+    "language": [
+      "Kotlin",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C234",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kubernetes",
+      "Shell",
+      "Node.js"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C235",
+    "title": "Game Development with Unity",
+    "language": [
+      "HTML",
+      "C#",
+      "Solidity",
+      "CSS"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C236",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Swift",
+      "JavaScript"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C237",
+    "title": "Data Science with Python",
+    "language": [
+      "Docker",
+      "Bash",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C238",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "NumPy",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C239",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Kubernetes",
+      "Pandas",
+      "Node.js",
+      "Bash"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C240",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Python",
+      "JavaScript",
+      "Swift",
+      "Kotlin"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C241",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "HTML",
+      "Shell",
+      "Kubernetes",
+      "Java"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C242",
+    "title": "Blockchain Basics",
+    "language": [
+      "Node.js",
+      "Docker",
+      "Scikit-learn"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C243",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Kotlin",
+      "Python",
+      "Kubernetes",
+      "Bash"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C244",
+    "title": "Blockchain Basics",
+    "language": [
+      "CSS",
+      "Node.js"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C245",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "TensorFlow",
+      "Swift",
+      "Python",
+      "CSS",
+      "Node.js"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C246",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "CSS"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C247",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Docker",
+      "Kubernetes",
+      "Solidity",
+      "Shell"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C248",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "React",
+      "Node.js",
+      "Docker",
+      "Python",
+      "Java"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C249",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "C#",
+      "Shell",
+      "Node.js",
+      "Python",
+      "Scikit-learn"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C250",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "C#",
+      "Kubernetes",
+      "Java",
+      "HTML"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C251",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kubernetes",
+      "Shell",
+      "C#",
+      "HTML",
+      "Java"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C252",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "JavaScript",
+      "React",
+      "C#",
+      "Solidity",
+      "MongoDB"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C253",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Bash",
+      "Shell",
+      "AWS",
+      "JavaScript",
+      "Kubernetes"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C254",
+    "title": "Data Science with Python",
+    "language": [
+      "TensorFlow",
+      "Shell",
+      "Kotlin",
+      "Docker"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C255",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Java",
+      "Swift",
+      "TensorFlow"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C256",
+    "title": "Frontend Development with React",
+    "language": [
+      "CSS",
+      "Bash"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C257",
+    "title": "Blockchain Basics",
+    "language": [
+      "Docker",
+      "React",
+      "CSS"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C258",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Swift",
+      "CSS",
+      "React",
+      "Scikit-learn"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C259",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Swift",
+      "NumPy",
+      "Node.js",
+      "Shell"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C260",
+    "title": "Blockchain Basics",
+    "language": [
+      "Kotlin",
+      "Swift",
+      "AWS",
+      "Kubernetes"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C261",
+    "title": "Blockchain Basics",
+    "language": [
+      "Scikit-learn",
+      "Docker",
+      "Shell",
+      "HTML"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C262",
+    "title": "Frontend Development with React",
+    "language": [
+      "TensorFlow",
+      "JavaScript",
+      "Scikit-learn",
+      "Java"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C263",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "React",
+      "JavaScript",
+      "Solidity"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C264",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "NumPy",
+      "Swift",
+      "JavaScript",
+      "Kubernetes",
+      "Python"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C265",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Kotlin",
+      "Node.js",
+      "Swift",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C266",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Node.js",
+      "C#",
+      "Java"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C267",
+    "title": "Full Stack Web Development",
+    "language": [
+      "CSS",
+      "React"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C268",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Pandas",
+      "AWS"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C269",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Bash",
+      "TensorFlow",
+      "Java",
+      "React",
+      "Kotlin"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C270",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "CSS",
+      "Java",
+      "Python",
+      "Shell"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C271",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "React",
+      "HTML"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C272",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "React",
+      "TensorFlow"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C273",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "JavaScript",
+      "Solidity",
+      "C#"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C274",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Python",
+      "Swift",
+      "Node.js"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C275",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "TensorFlow",
+      "NumPy"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C276",
+    "title": "Data Science with Python",
+    "language": [
+      "Docker",
+      "Shell",
+      "Bash",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C277",
+    "title": "Full Stack Web Development",
+    "language": [
+      "TensorFlow",
+      "Solidity",
+      "C#",
+      "Shell",
+      "Pandas"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C278",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Swift",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C279",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "C#",
+      "Scikit-learn",
+      "Pandas",
+      "Python"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C280",
+    "title": "Blockchain Basics",
+    "language": [
+      "JavaScript",
+      "AWS",
+      "Python",
+      "Kubernetes"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C281",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Bash",
+      "Kotlin",
+      "TensorFlow",
+      "HTML",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C282",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "TensorFlow",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C283",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Docker",
+      "Node.js",
+      "Bash"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C284",
+    "title": "Data Science with Python",
+    "language": [
+      "Bash",
+      "CSS",
+      "NumPy",
+      "Node.js"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C285",
+    "title": "Game Development with Unity",
+    "language": [
+      "React",
+      "C#",
+      "NumPy",
+      "Kotlin",
+      "Bash"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C286",
+    "title": "Full Stack Web Development",
+    "language": [
+      "TensorFlow",
+      "Solidity"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C287",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Node.js",
+      "Kubernetes"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C288",
+    "title": "Data Science with Python",
+    "language": [
+      "MongoDB",
+      "React",
+      "Python",
+      "AWS"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C289",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Pandas",
+      "Node.js",
+      "Scikit-learn"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C290",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Scikit-learn",
+      "Java",
+      "TensorFlow",
+      "Kotlin"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C291",
+    "title": "Game Development with Unity",
+    "language": [
+      "Swift",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C292",
+    "title": "Blockchain Basics",
+    "language": [
+      "Java",
+      "React",
+      "Python",
+      "TensorFlow"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C293",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "TensorFlow",
+      "React",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C294",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Docker",
+      "Node.js"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C295",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "Docker"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C296",
+    "title": "Game Development with Unity",
+    "language": [
+      "Java",
+      "Python",
+      "CSS",
+      "Kubernetes",
+      "Swift"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C297",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Kubernetes",
+      "Node.js",
+      "Scikit-learn",
+      "NumPy"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C298",
+    "title": "Blockchain Basics",
+    "language": [
+      "JavaScript",
+      "Solidity",
+      "React",
+      "TensorFlow",
+      "Python"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C299",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Java",
+      "Docker",
+      "C#",
+      "MongoDB",
+      "TensorFlow"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C300",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Python",
+      "Swift",
+      "NumPy",
+      "Node.js"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C301",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Node.js",
+      "Docker"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C302",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Scikit-learn",
+      "AWS"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C303",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "C#",
+      "Swift",
+      "MongoDB"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C304",
+    "title": "Full Stack Web Development",
+    "language": [
+      "React",
+      "AWS",
+      "C#",
+      "Solidity"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C305",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "MongoDB",
+      "React",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C306",
+    "title": "Game Development with Unity",
+    "language": [
+      "CSS",
+      "Solidity",
+      "Python",
+      "React",
+      "JavaScript"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C307",
+    "title": "Game Development with Unity",
+    "language": [
+      "Bash",
+      "TensorFlow",
+      "CSS",
+      "React",
+      "Docker"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C308",
+    "title": "Blockchain Basics",
+    "language": [
+      "React",
+      "Kotlin"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C309",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "HTML",
+      "Swift",
+      "React",
+      "Solidity"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C310",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Java",
+      "Shell",
+      "C#",
+      "Pandas",
+      "AWS"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C311",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Scikit-learn",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C312",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Scikit-learn",
+      "React",
+      "Swift",
+      "Kubernetes",
+      "HTML"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C313",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "AWS",
+      "MongoDB",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C314",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Bash",
+      "CSS",
+      "Java",
+      "Docker",
+      "Shell"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C315",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Solidity",
+      "C#",
+      "Swift",
+      "React"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C316",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kotlin",
+      "MongoDB",
+      "NumPy",
+      "Shell"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C317",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Bash",
+      "Scikit-learn",
+      "Kotlin"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C318",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "CSS",
+      "TensorFlow"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C319",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Node.js",
+      "HTML",
+      "Swift",
+      "CSS"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C320",
+    "title": "Blockchain Basics",
+    "language": [
+      "Node.js",
+      "C#",
+      "Pandas"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C321",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Scikit-learn",
+      "C#",
+      "Bash",
+      "CSS",
+      "Docker"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C322",
+    "title": "Game Development with Unity",
+    "language": [
+      "HTML",
+      "Scikit-learn",
+      "NumPy",
+      "Swift"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C323",
+    "title": "Full Stack Web Development",
+    "language": [
+      "C#",
+      "Kubernetes",
+      "Java",
+      "CSS",
+      "Python"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C324",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "JavaScript",
+      "HTML",
+      "Swift",
+      "TensorFlow"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C325",
+    "title": "Game Development with Unity",
+    "language": [
+      "Shell",
+      "Docker",
+      "Swift",
+      "Kotlin",
+      "AWS"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C326",
+    "title": "Frontend Development with React",
+    "language": [
+      "Solidity",
+      "AWS",
+      "JavaScript",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C327",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Node.js",
+      "Scikit-learn",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C328",
+    "title": "Blockchain Basics",
+    "language": [
+      "TensorFlow",
+      "AWS",
+      "Kubernetes",
+      "Shell",
+      "CSS"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C329",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Shell",
+      "Swift",
+      "Scikit-learn"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C330",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "AWS",
+      "Python",
+      "NumPy",
+      "Kubernetes"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C331",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "MongoDB",
+      "Kotlin",
+      "AWS",
+      "Node.js",
+      "Docker"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C332",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Pandas",
+      "MongoDB",
+      "Kotlin",
+      "Scikit-learn",
+      "Docker"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C333",
+    "title": "Blockchain Basics",
+    "language": [
+      "Solidity",
+      "JavaScript",
+      "C#",
+      "Docker"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C334",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Docker",
+      "MongoDB",
+      "Solidity",
+      "Scikit-learn"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C335",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Python",
+      "Kubernetes"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C336",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "MongoDB",
+      "CSS",
+      "React",
+      "Swift",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C337",
+    "title": "Frontend Development with React",
+    "language": [
+      "AWS",
+      "Solidity",
+      "NumPy",
+      "Swift"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C338",
+    "title": "Frontend Development with React",
+    "language": [
+      "MongoDB",
+      "Solidity",
+      "Bash",
+      "Shell"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C339",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "MongoDB",
+      "Scikit-learn",
+      "Swift",
+      "Java",
+      "C#"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C340",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Pandas",
+      "React",
+      "Docker",
+      "NumPy",
+      "Python"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C341",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "NumPy",
+      "Swift",
+      "Docker",
+      "Solidity",
+      "Bash"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C342",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Shell",
+      "Swift",
+      "React"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C343",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Solidity",
+      "HTML",
+      "Shell",
+      "AWS",
+      "Swift"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C344",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "MongoDB",
+      "Node.js",
+      "HTML"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C345",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "C#",
+      "JavaScript"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C346",
+    "title": "Game Development with Unity",
+    "language": [
+      "AWS",
+      "Kotlin"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C347",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "AWS",
+      "Solidity",
+      "CSS",
+      "TensorFlow"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C348",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "CSS",
+      "JavaScript",
+      "Kubernetes",
+      "MongoDB"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C349",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Docker",
+      "JavaScript",
+      "Scikit-learn",
+      "Swift",
+      "Solidity"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C350",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "MongoDB",
+      "Scikit-learn",
+      "React",
+      "Kotlin"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C351",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "JavaScript",
+      "Swift",
+      "Kotlin",
+      "HTML"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C352",
+    "title": "Frontend Development with React",
+    "language": [
+      "JavaScript",
+      "AWS"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C353",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "MongoDB",
+      "Bash",
+      "C#",
+      "Swift"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C354",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Java",
+      "C#",
+      "CSS",
+      "NumPy"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C355",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Scikit-learn",
+      "AWS",
+      "Docker",
+      "Node.js",
+      "Solidity"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C356",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "MongoDB",
+      "Shell"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C357",
+    "title": "Data Science with Python",
+    "language": [
+      "Scikit-learn",
+      "Python",
+      "Kotlin"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C358",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Swift",
+      "Node.js",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C359",
+    "title": "Game Development with Unity",
+    "language": [
+      "Python",
+      "React",
+      "Java",
+      "NumPy"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C360",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "C#",
+      "React",
+      "Java",
+      "MongoDB"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C361",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "TensorFlow",
+      "HTML",
+      "Solidity",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C362",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "Bash"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C363",
+    "title": "Game Development with Unity",
+    "language": [
+      "Docker",
+      "TensorFlow"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C364",
+    "title": "Game Development with Unity",
+    "language": [
+      "TensorFlow",
+      "JavaScript",
+      "Swift"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C365",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Shell",
+      "Pandas",
+      "Swift"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C366",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Java",
+      "TensorFlow",
+      "JavaScript"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C367",
+    "title": "Full Stack Web Development",
+    "language": [
+      "AWS",
+      "C#",
+      "CSS",
+      "Kotlin"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C368",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Shell",
+      "HTML",
+      "CSS",
+      "AWS"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C369",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Kotlin",
+      "React",
+      "TensorFlow"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C370",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Bash",
+      "Docker",
+      "Scikit-learn",
+      "C#",
+      "HTML"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C371",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kubernetes",
+      "AWS",
+      "JavaScript"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C372",
+    "title": "Blockchain Basics",
+    "language": [
+      "Kubernetes",
+      "Node.js",
+      "Shell",
+      "TensorFlow",
+      "Swift"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C373",
+    "title": "Full Stack Web Development",
+    "language": [
+      "React",
+      "HTML",
+      "TensorFlow",
+      "C#",
+      "AWS"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C374",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kubernetes",
+      "Python",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C375",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "React",
+      "Kotlin"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C376",
+    "title": "Game Development with Unity",
+    "language": [
+      "AWS",
+      "Solidity",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C377",
+    "title": "Game Development with Unity",
+    "language": [
+      "MongoDB",
+      "Pandas",
+      "Solidity",
+      "Node.js",
+      "Swift"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C378",
+    "title": "Full Stack Web Development",
+    "language": [
+      "CSS",
+      "AWS",
+      "JavaScript",
+      "Kotlin",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C379",
+    "title": "Frontend Development with React",
+    "language": [
+      "TensorFlow",
+      "React",
+      "Scikit-learn",
+      "Swift",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C380",
+    "title": "Frontend Development with React",
+    "language": [
+      "HTML",
+      "Docker",
+      "JavaScript",
+      "Shell",
+      "Scikit-learn"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C381",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "Node.js",
+      "Pandas"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C382",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "JavaScript",
+      "Solidity",
+      "CSS"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C383",
+    "title": "Frontend Development with React",
+    "language": [
+      "Java",
+      "Kubernetes",
+      "Kotlin"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C384",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Java",
+      "Solidity",
+      "Python",
+      "JavaScript"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Coursera",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C385",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "HTML",
+      "Node.js",
+      "React",
+      "Solidity"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C386",
+    "title": "Blockchain Basics",
+    "language": [
+      "MongoDB",
+      "Kotlin",
+      "Python",
+      "CSS"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C387",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "JavaScript",
+      "Solidity",
+      "Node.js",
+      "Scikit-learn"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C388",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Scikit-learn",
+      "Kotlin"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C389",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "C#",
+      "React",
+      "HTML",
+      "Python"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C390",
+    "title": "Blockchain Basics",
+    "language": [
+      "React",
+      "CSS",
+      "Pandas",
+      "Shell"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C391",
+    "title": "Blockchain Basics",
+    "language": [
+      "Python",
+      "Docker",
+      "Node.js",
+      "Bash",
+      "TensorFlow"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C392",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Java",
+      "Scikit-learn",
+      "TensorFlow",
+      "CSS",
+      "NumPy"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C393",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Docker",
+      "Solidity",
+      "Pandas",
+      "Shell"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C394",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Docker",
+      "Bash",
+      "React",
+      "AWS",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C395",
+    "title": "Frontend Development with React",
+    "language": [
+      "Node.js",
+      "JavaScript",
+      "MongoDB"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C396",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Docker",
+      "HTML",
+      "AWS",
+      "React"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C397",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Python",
+      "TensorFlow",
+      "Bash",
+      "Java",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C398",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Java",
+      "Pandas",
+      "Shell",
+      "Docker"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C399",
+    "title": "Game Development with Unity",
+    "language": [
+      "JavaScript",
+      "C#"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C400",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Kotlin",
+      "Bash",
+      "JavaScript",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C401",
+    "title": "Data Science with Python",
+    "language": [
+      "Docker",
+      "Scikit-learn",
+      "HTML",
+      "Pandas",
+      "TensorFlow"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C402",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Node.js",
+      "Solidity"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C403",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "JavaScript",
+      "Scikit-learn",
+      "Node.js",
+      "C#"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C404",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Shell",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C405",
+    "title": "Frontend Development with React",
+    "language": [
+      "Swift",
+      "MongoDB",
+      "Pandas",
+      "Kubernetes"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C406",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "C#",
+      "AWS",
+      "HTML",
+      "NumPy"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C407",
+    "title": "Data Science with Python",
+    "language": [
+      "Swift",
+      "MongoDB",
+      "Node.js",
+      "Pandas"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C408",
+    "title": "Full Stack Web Development",
+    "language": [
+      "HTML",
+      "Python",
+      "MongoDB",
+      "TensorFlow",
+      "Kotlin"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C409",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "JavaScript",
+      "Scikit-learn",
+      "Solidity",
+      "MongoDB"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C410",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "AWS",
+      "Scikit-learn",
+      "Kotlin",
+      "C#",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C411",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Scikit-learn",
+      "CSS",
+      "Shell",
+      "Bash",
+      "Solidity"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C412",
+    "title": "Data Science with Python",
+    "language": [
+      "React",
+      "Bash",
+      "AWS"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C413",
+    "title": "Game Development with Unity",
+    "language": [
+      "React",
+      "Node.js"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C414",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "React",
+      "Docker",
+      "Solidity",
+      "TensorFlow",
+      "JavaScript"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C415",
+    "title": "Frontend Development with React",
+    "language": [
+      "Pandas",
+      "Kubernetes"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C416",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "JavaScript",
+      "Java",
+      "C#",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C417",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Scikit-learn",
+      "Docker"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C418",
+    "title": "Data Science with Python",
+    "language": [
+      "Scikit-learn",
+      "MongoDB",
+      "HTML",
+      "React"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C419",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "NumPy",
+      "CSS",
+      "Solidity",
+      "Bash"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C420",
+    "title": "Game Development with Unity",
+    "language": [
+      "Docker",
+      "Java"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C421",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "NumPy",
+      "Python",
+      "Bash",
+      "Swift",
+      "Docker"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C422",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "AWS",
+      "Java",
+      "Bash",
+      "JavaScript",
+      "Node.js"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C423",
+    "title": "Data Science with Python",
+    "language": [
+      "Node.js",
+      "Swift",
+      "Scikit-learn",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C424",
+    "title": "Blockchain Basics",
+    "language": [
+      "Node.js",
+      "Bash",
+      "Scikit-learn",
+      "C#"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C425",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "C#",
+      "Kubernetes",
+      "Python"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C426",
+    "title": "Full Stack Web Development",
+    "language": [
+      "MongoDB",
+      "Java",
+      "NumPy",
+      "C#"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C427",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Pandas",
+      "CSS",
+      "Bash",
+      "JavaScript",
+      "MongoDB"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C428",
+    "title": "Data Science with Python",
+    "language": [
+      "CSS",
+      "Swift",
+      "Docker",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C429",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "AWS",
+      "Node.js",
+      "Kotlin",
+      "Docker"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C430",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Node.js",
+      "HTML"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C431",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Pandas",
+      "NumPy"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C432",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Shell",
+      "MongoDB",
+      "CSS",
+      "Scikit-learn",
+      "NumPy"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C433",
+    "title": "Frontend Development with React",
+    "language": [
+      "Bash",
+      "Pandas"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C434",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "React",
+      "TensorFlow",
+      "Python"
+    ],
+    "field": "Data Science",
+    "level": "Intermediate",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C435",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "TensorFlow",
+      "React",
+      "Python"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C436",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "C#",
+      "MongoDB",
+      "Scikit-learn",
+      "TensorFlow"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C437",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Bash",
+      "Solidity",
+      "Node.js",
+      "Swift",
+      "Scikit-learn"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C438",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Bash",
+      "Solidity",
+      "Node.js",
+      "NumPy",
+      "JavaScript"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C439",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "MongoDB",
+      "TensorFlow",
+      "Shell",
+      "Kotlin"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C440",
+    "title": "Game Development with Unity",
+    "language": [
+      "Kotlin",
+      "C#",
+      "JavaScript",
+      "NumPy"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C441",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "C#",
+      "Pandas"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C442",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "AWS",
+      "Docker",
+      "TensorFlow",
+      "CSS",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C443",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kubernetes",
+      "AWS",
+      "Shell",
+      "Bash"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C444",
+    "title": "Game Development with Unity",
+    "language": [
+      "Pandas",
+      "TensorFlow"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C445",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Shell",
+      "HTML",
+      "Docker",
+      "React"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "edX",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C446",
+    "title": "Frontend Development with React",
+    "language": [
+      "Swift",
+      "Scikit-learn",
+      "Kotlin",
+      "Kubernetes"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C447",
+    "title": "Frontend Development with React",
+    "language": [
+      "React",
+      "Shell",
+      "C#",
+      "Bash"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C448",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Python",
+      "Java",
+      "NumPy",
+      "Node.js",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C449",
+    "title": "Data Science with Python",
+    "language": [
+      "Kubernetes",
+      "AWS",
+      "Java"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C450",
+    "title": "Data Science with Python",
+    "language": [
+      "Solidity",
+      "Java",
+      "TensorFlow"
+    ],
+    "field": "Blockchain",
+    "level": "Advanced",
+    "duration": "6 months",
+    "platform": "Udacity",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C451",
+    "title": "Blockchain Basics",
+    "language": [
+      "JavaScript",
+      "CSS",
+      "TensorFlow"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Coursera",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C452",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Node.js",
+      "Shell"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C453",
+    "title": "Blockchain Basics",
+    "language": [
+      "Node.js",
+      "Swift",
+      "HTML"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C454",
+    "title": "Full Stack Web Development",
+    "language": [
+      "Scikit-learn",
+      "Docker"
+    ],
+    "field": "DevOps",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C455",
+    "title": "Full Stack Web Development",
+    "language": [
+      "TensorFlow",
+      "Java",
+      "JavaScript"
+    ],
+    "field": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C456",
+    "title": "Frontend Development with React",
+    "language": [
+      "Node.js",
+      "Bash",
+      "AWS",
+      "React"
+    ],
+    "field": "Mobile Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C457",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "HTML",
+      "C#"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C458",
+    "title": "Game Development with Unity",
+    "language": [
+      "Docker",
+      "Solidity",
+      "Node.js",
+      "MongoDB"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Udacity",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C459",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "C#",
+      "React",
+      "CSS",
+      "Node.js"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C460",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Swift",
+      "Kubernetes",
+      "Pandas",
+      "Node.js"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C461",
+    "title": "Full Stack Web Development",
+    "language": [
+      "MongoDB",
+      "Shell",
+      "Java",
+      "Python"
+    ],
+    "field": "Cloud Computing",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C462",
+    "title": "Game Development with Unity",
+    "language": [
+      "Bash",
+      "Shell",
+      "Kotlin"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Pluralsight",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C463",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Swift",
+      "C#",
+      "React",
+      "Docker"
+    ],
+    "field": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C464",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Kubernetes",
+      "Python",
+      "HTML",
+      "MongoDB"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Pluralsight",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C465",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Solidity",
+      "TensorFlow",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "4 months",
+    "platform": "edX",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C466",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Bash",
+      "Kubernetes",
+      "MongoDB",
+      "C#",
+      "Java"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C467",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "MongoDB",
+      "Kotlin",
+      "TensorFlow"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C468",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Java",
+      "HTML",
+      "NumPy",
+      "Swift",
+      "Bash"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C469",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "NumPy",
+      "Shell",
+      "Swift"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Coursera",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C470",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "NumPy",
+      "Bash"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C471",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "C#",
+      "Docker",
+      "Java",
+      "Node.js",
+      "CSS"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Pluralsight",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C472",
+    "title": "Blockchain Basics",
+    "language": [
+      "MongoDB",
+      "Solidity",
+      "AWS",
+      "Kubernetes"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C473",
+    "title": "Game Development with Unity",
+    "language": [
+      "React",
+      "AWS",
+      "Docker",
+      "Kotlin",
+      "CSS"
+    ],
+    "field": "Cybersecurity",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C474",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "Scikit-learn",
+      "Bash"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  },
+  {
+    "courseId": "C475",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Python",
+      "NumPy"
+    ],
+    "field": "AI/ML",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Analyze and visualize data"
+  },
+  {
+    "courseId": "C476",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "Shell",
+      "Pandas",
+      "CSS",
+      "Kubernetes",
+      "MongoDB"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C477",
+    "title": "Frontend Development with React",
+    "language": [
+      "Scikit-learn",
+      "Java"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "edX",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C478",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Scikit-learn",
+      "React",
+      "MongoDB",
+      "Docker"
+    ],
+    "field": "Web Development",
+    "level": "Advanced",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C479",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Shell",
+      "C#",
+      "Scikit-learn",
+      "TensorFlow",
+      "CSS"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C480",
+    "title": "Game Development with Unity",
+    "language": [
+      "HTML",
+      "Kubernetes"
+    ],
+    "field": "Game Development",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C481",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "Swift",
+      "MongoDB",
+      "Pandas",
+      "Python",
+      "HTML"
+    ],
+    "field": "AI/ML",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C482",
+    "title": "Blockchain Basics",
+    "language": [
+      "Python",
+      "Swift",
+      "JavaScript",
+      "Shell"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C483",
+    "title": "Game Development with Unity",
+    "language": [
+      "Python",
+      "HTML",
+      "React",
+      "Pandas"
+    ],
+    "field": "Data Science",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C484",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "MongoDB",
+      "Python",
+      "AWS",
+      "Node.js",
+      "C#"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "1 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C485",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kotlin",
+      "Python",
+      "Solidity",
+      "Node.js"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "3 months",
+    "platform": "Pluralsight",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C486",
+    "title": "Frontend Development with React",
+    "language": [
+      "React",
+      "C#",
+      "Shell"
+    ],
+    "field": "Mobile Development",
+    "level": "Beginner",
+    "duration": "6 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C487",
+    "title": "DevOps Fundamentals",
+    "language": [
+      "CSS",
+      "NumPy",
+      "React",
+      "Node.js",
+      "HTML"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Udemy",
+    "goal": "Build secure systems"
+  },
+  {
+    "courseId": "C488",
+    "title": "Cybersecurity Essentials",
+    "language": [
+      "AWS",
+      "Python",
+      "NumPy",
+      "React",
+      "MongoDB"
+    ],
+    "field": "AI/ML",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C489",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "MongoDB",
+      "C#",
+      "Kubernetes",
+      "React",
+      "Pandas"
+    ],
+    "field": "Game Development",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C490",
+    "title": "Full Stack Web Development",
+    "language": [
+      "AWS",
+      "TensorFlow",
+      "HTML",
+      "Node.js",
+      "Docker"
+    ],
+    "field": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "3 months",
+    "platform": "edX",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C491",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Bash",
+      "JavaScript",
+      "React"
+    ],
+    "field": "Cloud Computing",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C492",
+    "title": "iOS App Development with Swift",
+    "language": [
+      "Scikit-learn",
+      "CSS",
+      "Node.js",
+      "Shell",
+      "Solidity"
+    ],
+    "field": "Cybersecurity",
+    "level": "Beginner",
+    "duration": "1 months",
+    "platform": "Pluralsight",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C493",
+    "title": "Frontend Development with React",
+    "language": [
+      "Python",
+      "Docker"
+    ],
+    "field": "Game Development",
+    "level": "Advanced",
+    "duration": "2 months",
+    "platform": "Coursera",
+    "goal": "Develop interactive games"
+  },
+  {
+    "courseId": "C494",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "Kotlin",
+      "Docker",
+      "Kubernetes",
+      "C#",
+      "Node.js"
+    ],
+    "field": "DevOps",
+    "level": "Beginner",
+    "duration": "5 months",
+    "platform": "Udacity",
+    "goal": "Build mobile apps"
+  },
+  {
+    "courseId": "C495",
+    "title": "Android App Development with Kotlin",
+    "language": [
+      "React",
+      "Shell"
+    ],
+    "field": "DevOps",
+    "level": "Advanced",
+    "duration": "4 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Learn CI/CD and container orchestration"
+  },
+  {
+    "courseId": "C496",
+    "title": "Backend Development with Node.js",
+    "language": [
+      "Scikit-learn",
+      "HTML",
+      "NumPy"
+    ],
+    "field": "Web Development",
+    "level": "Intermediate",
+    "duration": "5 months",
+    "platform": "Udemy",
+    "goal": "Learn about blockchain technology"
+  },
+  {
+    "courseId": "C497",
+    "title": "Machine Learning Specialization",
+    "language": [
+      "Scikit-learn",
+      "CSS",
+      "Solidity"
+    ],
+    "field": "Blockchain",
+    "level": "Intermediate",
+    "duration": "2 months",
+    "platform": "LinkedIn Learning",
+    "goal": "Build dynamic websites and backend APIs"
+  },
+  {
+    "courseId": "C498",
+    "title": "Game Development with Unity",
+    "language": [
+      "Python",
+      "Kotlin",
+      "C#",
+      "Java",
+      "JavaScript"
+    ],
+    "field": "Blockchain",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Understand security fundamentals"
+  },
+  {
+    "courseId": "C499",
+    "title": "Blockchain Basics",
+    "language": [
+      "Swift",
+      "Kubernetes",
+      "Kotlin",
+      "C#"
+    ],
+    "field": "Data Science",
+    "level": "Beginner",
+    "duration": "4 months",
+    "platform": "Udemy",
+    "goal": "Develop machine learning models"
+  },
+  {
+    "courseId": "C500",
+    "title": "Cloud Computing with AWS",
+    "language": [
+      "TensorFlow",
+      "Java"
+    ],
+    "field": "Web Development",
+    "level": "Beginner",
+    "duration": "2 months",
+    "platform": "Udacity",
+    "goal": "Deploy scalable applications"
+  }
+]
