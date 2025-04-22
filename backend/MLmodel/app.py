@@ -4,14 +4,12 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load model and encoders
 model = pickle.load(open('salary_model.pkl', 'rb'))
 edu_encoder = pickle.load(open('edu_encoder.pkl', 'rb'))
 job_encoder = pickle.load(open('job_encoder.pkl', 'rb'))
 loc_encoder = pickle.load(open('loc_encoder.pkl', 'rb'))
 mlb = pickle.load(open('skill_encoder.pkl', 'rb'))
 
-# Define a skill weight map (example)
 skill_weight = {
     'Python': 1.6,
     'Java': 1.5,
@@ -30,10 +28,19 @@ skill_weight = {
     'Dart': 1.2,
 }
 
+def apply_skill_bonus(base_salary, skill_list):
+    bonus = 0
+    if len(skill_list) > 3:
+        bonus += 40000
+    if 'Python' in skill_list:
+        bonus += 25000
+    if 'Java' in skill_list:
+        bonus += 20000
+    return base_salary + bonus
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Get input data
         data = request.get_json()
         experience = float(data.get('experience', 0))
         education = data.get('education', '').strip()
@@ -41,22 +48,16 @@ def predict():
         job_title = data.get('job_title', '').strip()
         skills_raw = data.get('skills', '')
 
-        # Log the incoming data
         print(f"Experience: {experience}, Education: {education}, Location: {location}, Job Title: {job_title}, Skills: {skills_raw}")
 
-        # Convert skills from string to list (assuming comma-separated)
         skills = [skill.strip() for skill in skills_raw.split(',') if skill.strip()]
 
-        # Encode features
         encoded_education = edu_encoder.transform([[education]])
         encoded_location = loc_encoder.transform([[location]])
         encoded_job_title = job_encoder.transform([[job_title]])
         encoded_skills = mlb.transform([skills])
-
-        # Apply skill weight mapping to the skills data
         encoded_skills_weighted = encoded_skills * [skill_weight.get(skill, 1.0) for skill in mlb.classes_]
 
-        # Combine all features into a single input
         features = np.hstack([
             [experience], 
             encoded_education.flatten(), 
@@ -65,10 +66,11 @@ def predict():
             encoded_skills_weighted.flatten()
         ])
 
-        # Predict salary
-        prediction = model.predict([features])
+        base_salary = model.predict([features])[0]
 
-        return jsonify({'predicted_salary': round(prediction[0], 2)})
+        final_salary = apply_skill_bonus(base_salary, skills)
+
+        return jsonify({'predicted_salary': round(final_salary, 2)})
 
     except Exception as e:
         error_message = f"Error during prediction: {str(e)}"

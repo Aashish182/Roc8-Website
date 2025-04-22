@@ -1,17 +1,11 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.pipeline import Pipeline
 import pickle
 from sklearn.preprocessing import MultiLabelBinarizer
 
-# Load dataset (make sure you provide the correct file path)
 data = pd.read_csv('salary_data.csv')
-
-# Split 'Skills' column into multiple skills (you can do this in your preprocessing pipeline)
 data['Skills'] = data['Skills'].apply(lambda x: x.split('|'))
-
-# Define a skill weight map (example)
 skill_weight = {
     'Python': 1.5,
     'Java': 1.5,
@@ -30,31 +24,35 @@ skill_weight = {
     'Dart': 1.2,
 }
 
-# Prepare features (X) and target (y)
+def adjust_salary(row):
+    skill_list = row['Skills']
+    bonus = 0
+
+    if len(skill_list) > 3:
+        bonus += 40000
+    if 'Python' in skill_list:
+        bonus += 25000
+    if 'Java' in skill_list:
+        bonus += 20000
+
+    return row['Salary'] + bonus
+
+data['Salary'] = data.apply(adjust_salary, axis=1)
 X = data[['Experience', 'Education', 'Location', 'Job_Title', 'Skills']]
 y = data['Salary']
-
-# Process the categorical data
 edu_encoder = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 job_encoder = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 loc_encoder = OneHotEncoder(handle_unknown='ignore', sparse_output=False)
 
-# Apply OneHotEncoder to Education, Job_Title, and Location columns
 X_edu = edu_encoder.fit_transform(X[['Education']])
 X_job = job_encoder.fit_transform(X[['Job_Title']])
 X_loc = loc_encoder.fit_transform(X[['Location']])
-
-# Convert skills into binary features using MultiLabelBinarizer
 mlb = MultiLabelBinarizer()
 X_skills = mlb.fit_transform(X['Skills'])
 
-# Apply skill weight mapping to the skills data
-X_skills_weighted = X_skills * [skill_weight.get(skill,1.5) for skill in mlb.classes_]
+X_skills_weighted = X_skills * [skill_weight.get(skill, 1.5) for skill in mlb.classes_]
 
-# Add this before training
 X_exp = X[['Experience']].reset_index(drop=True)
-
-# Combine all processed features into the final dataset
 X_final = pd.concat([
     X_exp,
     pd.DataFrame(X_edu, columns=edu_encoder.get_feature_names_out(['Education'])).reset_index(drop=True),
@@ -63,13 +61,9 @@ X_final = pd.concat([
     pd.DataFrame(X_skills_weighted, columns=mlb.classes_).reset_index(drop=True)
 ], axis=1)
 
-# Train the model using RandomForestRegressor
 model = RandomForestRegressor(n_estimators=150, random_state=42)
-
-# Train the model
 model.fit(X_final, y)
 
-# Save the model and encoders
 with open('salary_model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
