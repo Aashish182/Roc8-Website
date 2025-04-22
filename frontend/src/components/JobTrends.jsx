@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import Footer from "./Footer";
 import { FaSearch } from "react-icons/fa";
+import Banner from "./Banner";
 
 const JobTrends = () => {
   const [jobs, setJobs] = useState([]);
@@ -230,6 +231,7 @@ return (
                 <></>
             )}
         </div>
+        <Banner />
         <Footer />
     </div>
     );
