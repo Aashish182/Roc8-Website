@@ -39,6 +39,16 @@ const PredictSalary = () => {
     }
   };
 
+  // Predefined options for Location and Job Title
+  const jobTitles = [
+    'Software Engineer', 'Data Scientist','DevOps Engineer',
+    'Full Stack Developer', 'Marketing Manager' ,'Frontend Developer'
+  ];
+
+  const locations = [
+    'Pune', 'Hyderabad', 'Delhi', 'Mumbai', 'Bangalore', 'Chennai'
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-100 from-25% via-purple-200 via-40% to-purple-100 to-60% flex items-center justify-center">
       <div className="container bg-white p-8 rounded-lg shadow-lg w-96 mt-16">
@@ -56,6 +66,7 @@ const PredictSalary = () => {
               required
             />
           </div>
+
           <div className="mb-4">
             <label className="block text-gray-700">Education:</label>
             <select
@@ -64,47 +75,58 @@ const PredictSalary = () => {
               onChange={handleChange}
               className="w-full p-2 border rounded"
             >
+              <option value="">Select Education</option>
               <option value="Bachelor">Bachelors</option>
               <option value="Master">Masters</option>
               <option value="PhD">PhD</option>
             </select>
           </div>
+
           <div className="mb-4">
             <label className="block text-gray-700">Location:</label>
-            <input
-              type="text"
+            <select
               name="location"
-              placeholder="Location"
               value={formData.location}
               onChange={handleChange}
               className="w-full p-2 border rounded"
               required
-            />
+            >
+              <option value="">Select Location</option>
+              {locations.map((location, index) => (
+                <option key={index} value={location}>{location}</option>
+              ))}
+            </select>
           </div>
+
           <div className="mb-4">
             <label className="block text-gray-700">Job Title:</label>
-            <input
+            <select
               name="job_title"
               value={formData.job_title}
               onChange={handleChange}
               className="w-full p-2 border rounded"
-              type="text"
-              placeholder="Job_Title"
               required
-              />
+            >
+              <option value="">Select Job Title</option>
+              {jobTitles.map((jobTitle, index) => (
+                <option key={index} value={jobTitle}>{jobTitle}</option>
+              ))}
+            </select>
           </div>
+
           <div className="mb-4">
             <label className="block text-gray-700">Skills:</label>
             <input
               type="text"
               name="skills"
-              placeholder="Skills"
+              placeholder="Skills (Python, Java, HTML, CSS)"
               value={formData.skills}
               onChange={handleChange}
               className="w-full p-2 border rounded"
               required
             />
           </div>
+
           <button
             type="submit"
             className="w-full bg-purple-500 text-white p-2 rounded hover:bg-purple-700"

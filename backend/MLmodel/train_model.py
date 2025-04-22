@@ -49,7 +49,7 @@ mlb = MultiLabelBinarizer()
 X_skills = mlb.fit_transform(X['Skills'])
 
 # Apply skill weight mapping to the skills data
-X_skills_weighted = X_skills * [skill_weight.get(skill, 1.0) for skill in mlb.classes_]
+X_skills_weighted = X_skills * [skill_weight.get(skill,1.5) for skill in mlb.classes_]
 
 # Add this before training
 X_exp = X[['Experience']].reset_index(drop=True)
