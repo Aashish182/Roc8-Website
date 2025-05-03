@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"; // Import icons
-import Navbar from "../components/Navbar";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"; 
 import Footer from "../components/Footer";
 import skills from "../utils/skills";
+import { NavLink } from "react-router-dom";
 
 const CareerInsights = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -20,9 +20,20 @@ const CareerInsights = () => {
                     <p className="text-lg mt-4">
                         Stay ahead in your career with industry-demanded skills & technologies.
                     </p>
-                    <button className="bg-purple-600 hover:bg-purple-700 text-white mt-4 font-bold py-3 px-8 rounded-full transition-colors">
+                    <div className="flex justify-center gap-4 mt-4">
+                        <NavLink
+                        to="/CourseRecommendation"
+                        className="text-white bg-purple-600 hover:bg-[#d8b4fe] hover:text-purple-700 font-bold py-3 px-6 rounded-full transition-all"
+                        >
+                        Get Recommendation
+                        </NavLink>
+                        <NavLink
+                        to="/Contact"
+                        className="bg-white text-purple-600 border border-purple-500 hover:bg-purple-200 font-bold py-3 px-6 rounded-full transition-all"
+                        >
                         Explore Courses
-                    </button>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
 

@@ -147,12 +147,13 @@
 // };
 
 // export default PredictSalary;
+
 import React, { useState } from 'react';
 import Confetti from 'react-confetti';
 import SummaryApi from '../common';
 import { useWindowSize } from 'react-use';
-import Footer from "../components/Footer";
-import Banner2 from "../components/Banner2";
+import Footer from "./Footer";
+import Banner2 from "./Banner2";
 
 
 const PredictSalary = () => {

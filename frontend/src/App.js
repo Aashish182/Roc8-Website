@@ -25,7 +25,8 @@ import Profile from './pages/Profile';
 import ForgotPassword from './components/ForgotPassword';
 import Contact from './pages/Contact';
 import AllFeedbacks from './components/AllFeedbacks';
-import PredictSalary from './pages/PredictSalary';
+import PredictSalary from './components/PredictSalary';
+import CourseRecommendation from './components/CourseRecommendation';
 
 function App() {
   const dispatch = useDispatch();
@@ -113,6 +114,15 @@ function App() {
         <>
           <Navbar />
           <CareerInsights />
+        </>
+      ),
+    },
+    {
+      path: '/CourseRecommendation',
+      element: (
+        <>
+          <Navbar />
+          <CourseRecommendation />
         </>
       ),
     },
