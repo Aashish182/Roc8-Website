@@ -27,6 +27,7 @@ import Contact from './pages/Contact';
 import AllFeedbacks from './components/AllFeedbacks';
 import PredictSalary from './components/PredictSalary';
 import CourseRecommendation from './components/CourseRecommendation';
+import Course from './components/Course';
 
 function App() {
   const dispatch = useDispatch();
@@ -177,6 +178,15 @@ function App() {
         <>
           <Navbar />
           <ViewQuery />
+        </>
+      ),
+    },
+    {
+      path: '/Course',
+      element: (
+        <>
+          <Navbar />
+          <Course />
         </>
       ),
     },

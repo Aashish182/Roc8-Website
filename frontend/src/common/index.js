@@ -98,6 +98,10 @@ const SummaryApi = {
         url: `${backendDomain}/api/salarydetails`,
         method : "post"
     },
+    CourseDetails :{
+        url: `${backendDomain}/api/coursedetails`,
+        method : "get"
+    },
 }
 
 

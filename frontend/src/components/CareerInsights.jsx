@@ -28,7 +28,7 @@ const CareerInsights = () => {
                         Get Recommendation
                         </NavLink>
                         <NavLink
-                        to="/Contact"
+                        to="/Course"
                         className="bg-white text-purple-600 border border-purple-500 hover:bg-purple-200 font-bold py-3 px-6 rounded-full transition-all"
                         >
                         Explore Courses

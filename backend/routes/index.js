@@ -26,6 +26,7 @@ const feedbackDetails = require('../controller/feedbackDetails');
 const feedbackUser = require('../controller/feedbackUser');
 const userFeedback = require('../controller/userFeedback');
 const salaryPredict = require('../controller/salaryPredict');
+const courseDetails = require('../controller/courseDetails');
 
 // Routes
 router.post("/Register", userRegisterController);
@@ -50,6 +51,7 @@ router.post("/Feedback", feedback);
 router.get("/FeedbackDetails", feedbackDetails);
 router.post("/Feedbackuser", feedbackUser);
 router.post("/Userfeedback", userFeedback);
-router.post("/salarydetails", salaryPredict);  // Salary prediction route
+router.post("/salarydetails", salaryPredict); 
+router.get("/coursedetails",courseDetails);
 
 module.exports = router;
